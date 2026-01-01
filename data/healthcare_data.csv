@@ -1,0 +1,801 @@
+Patient_ID,Name,Age,Gender,Blood_Type,Medical_Condition,Admission_Type,Admission_Date,Discharge_Date,Length_of_Stay,Doctor,Medication,Test_Results,Insurance_Provider,Billing_Amount,Room_Number
+P00001,Patient_1,69,Male,O+,Pneumonia,Elective,2025-07-26,2025-08-05,10,Dr. Martinez,Metoprolol,Normal,Medicaid,28013.08,215
+P00002,Patient_2,32,Female,AB+,Pneumonia,Urgent,2024-07-10,2024-07-23,13,Dr. Jones,Gabapentin,Critical,United Health,29387.36,339
+P00003,Patient_3,78,Female,O+,Heart Disease,Emergency,2024-01-05,2024-01-12,7,Dr. Johnson,Levothyroxine,Normal,United Health,48118.33,441
+P00004,Patient_4,38,Male,O+,Asthma,Elective,2024-08-24,2024-08-29,5,Dr. Hernandez,Albuterol,Normal,Blue Cross,14149.6,537
+P00005,Patient_5,41,Female,O+,Cancer,Elective,2025-11-23,2025-12-04,11,Dr. Davis,Lisinopril,Abnormal,Aetna,51098.92,307
+P00006,Patient_6,20,Female,A+,Obesity,Urgent,2024-11-06,2024-11-11,5,Dr. Miller,Lisinopril,Normal,Cigna,16820.4,120
+P00007,Patient_7,39,Female,A-,Arthritis,Emergency,2025-07-02,2025-07-12,10,Dr. Davis,Hydrochlorothiazide,Normal,Cigna,30222.88,134
+P00008,Patient_8,70,Female,O+,Hypertension,Elective,2024-02-25,2024-03-01,5,Dr. Williams,Metformin,Normal,Blue Cross,22056.78,335
+P00009,Patient_9,19,Female,O+,Obesity,Elective,2025-03-18,2025-03-29,11,Dr. Brown,Losartan,Normal,Medicaid,22758.97,234
+P00010,Patient_10,47,Female,O+,Asthma,Elective,2024-08-24,2024-09-03,10,Dr. Jones,Atorvastatin,Critical,Medicare,34283.11,322
+P00011,Patient_11,55,Female,A+,Kidney Disease,Emergency,2024-07-15,2024-07-26,11,Dr. Garcia,Atorvastatin,Abnormal,Medicare,40603.18,331
+P00012,Patient_12,19,Female,A+,Hypertension,Urgent,2025-08-07,2025-08-14,7,Dr. Smith,Lisinopril,Normal,Aetna,22417.27,423
+P00013,Patient_13,81,Male,O+,Diabetes,Emergency,2025-07-24,2025-08-05,12,Dr. Brown,Levothyroxine,Critical,Blue Cross,39219.45,119
+P00014,Patient_14,77,Male,O+,Pneumonia,Emergency,2025-05-28,2025-06-07,10,Dr. Hernandez,Metoprolol,Normal,Blue Cross,32074.53,104
+P00015,Patient_15,38,Female,O+,Asthma,Emergency,2025-03-24,2025-04-10,17,Dr. Jones,Levothyroxine,Normal,Medicaid,35208.31,524
+P00016,Patient_16,50,Female,O+,Diabetes,Urgent,2024-12-25,2025-01-05,11,Dr. Miller,Lisinopril,Normal,Medicare,23552.27,320
+P00017,Patient_17,75,Female,O+,Heart Disease,Elective,2025-11-30,2025-12-08,8,Dr. Jones,Levothyroxine,Normal,Blue Cross,25783.61,339
+P00018,Patient_18,39,Male,A+,Flu,Elective,2024-01-30,2024-02-02,3,Dr. Smith,Albuterol,Normal,Cigna,23506.16,228
+P00019,Patient_19,66,Female,B+,Arthritis,Emergency,2024-04-17,2024-04-28,11,Dr. Miller,Levothyroxine,Critical,Aetna,25706.82,139
+P00020,Patient_20,76,Male,A+,Arthritis,Elective,2025-08-24,2025-09-05,12,Dr. Davis,Hydrochlorothiazide,Abnormal,Medicare,35758.82,217
+P00021,Patient_21,59,Male,A+,Diabetes,Elective,2025-12-17,2025-12-30,13,Dr. Miller,Hydrochlorothiazide,Normal,Medicaid,39372.82,419
+P00022,Patient_22,77,Female,O+,Pneumonia,Elective,2025-03-20,2025-03-23,3,Dr. Brown,Metoprolol,Normal,Aetna,12913.46,548
+P00023,Patient_23,32,Female,B+,Heart Disease,Urgent,2025-03-13,2025-03-26,13,Dr. Davis,Albuterol,Abnormal,United Health,38990.72,235
+P00024,Patient_24,79,Female,AB+,Kidney Disease,Emergency,2025-08-28,2025-09-13,16,Dr. Jones,Losartan,Critical,Cigna,68124.55,132
+P00025,Patient_25,79,Female,A+,Pneumonia,Elective,2025-04-01,2025-04-07,6,Dr. Hernandez,Metformin,Abnormal,Medicaid,19767.62,447
+P00026,Patient_26,64,Male,A+,Obesity,Emergency,2025-09-06,2025-09-22,16,Dr. Martinez,Albuterol,Normal,Aetna,53788.94,346
+P00027,Patient_27,79,Female,A+,Arthritis,Elective,2025-11-28,2025-12-11,13,Dr. Hernandez,Omeprazole,Abnormal,Blue Cross,30997.11,447
+P00028,Patient_28,68,Male,A+,Obesity,Emergency,2025-11-26,2025-12-01,5,Dr. Jones,Gabapentin,Normal,United Health,29515.43,246
+P00029,Patient_29,72,Female,O+,Hypertension,Emergency,2025-05-09,2025-05-13,4,Dr. Smith,Lisinopril,Normal,Medicaid,21225.06,139
+P00030,Patient_30,81,Female,A+,Cancer,Elective,2025-11-04,2025-11-15,11,Dr. Martinez,Omeprazole,Normal,Blue Cross,41939.26,235
+P00031,Patient_31,20,Female,O+,Asthma,Elective,2024-09-03,2024-09-11,8,Dr. Jones,Metoprolol,Normal,Cigna,14644.21,330
+P00032,Patient_32,68,Female,A+,Heart Disease,Emergency,2025-06-26,2025-07-04,8,Dr. Garcia,Omeprazole,Normal,United Health,49872.73,317
+P00033,Patient_33,24,Female,A+,Pneumonia,Elective,2025-07-17,2025-07-27,10,Dr. Brown,Hydrochlorothiazide,Normal,Medicare,24009.48,142
+P00034,Patient_34,38,Female,A+,Arthritis,Elective,2025-08-10,2025-08-14,4,Dr. Garcia,Levothyroxine,Normal,Blue Cross,22726.37,547
+P00035,Patient_35,56,Male,O+,Obesity,Emergency,2025-03-14,2025-03-22,8,Dr. Davis,Metformin,Abnormal,Aetna,21155.95,429
+P00036,Patient_36,35,Male,O+,Flu,Elective,2024-10-04,2024-10-07,3,Dr. Williams,Atorvastatin,Normal,Medicaid,13794.5,406
+P00037,Patient_37,21,Male,B+,Hypertension,Emergency,2025-07-05,2025-07-10,5,Dr. Jones,Lisinopril,Normal,United Health,24036.51,317
+P00038,Patient_38,77,Male,B+,Asthma,Elective,2025-09-04,2025-09-07,3,Dr. Johnson,Atorvastatin,Normal,Blue Cross,7224.43,217
+P00039,Patient_39,31,Female,O+,Asthma,Elective,2024-04-20,2024-05-03,13,Dr. Johnson,Levothyroxine,Critical,Medicare,32555.88,214
+P00040,Patient_40,26,Female,A+,Pneumonia,Emergency,2025-01-19,2025-01-31,12,Dr. Miller,Hydrochlorothiazide,Normal,Medicaid,37881.91,524
+P00041,Patient_41,70,Male,A-,Heart Disease,Emergency,2024-07-09,2024-07-19,10,Dr. Hernandez,Hydrochlorothiazide,Normal,Medicaid,61212.51,250
+P00042,Patient_42,19,Male,O+,Kidney Disease,Elective,2025-05-04,2025-05-24,20,Dr. Hernandez,Levothyroxine,Normal,Blue Cross,39892.84,437
+P00043,Patient_43,77,Male,O+,Flu,Urgent,2025-11-24,2025-11-27,3,Dr. Hernandez,Lisinopril,Abnormal,Medicare,16419.95,240
+P00044,Patient_44,61,Female,A+,Pneumonia,Elective,2025-03-01,2025-03-10,9,Dr. Garcia,Atorvastatin,Critical,Cigna,20438.74,539
+P00045,Patient_45,25,Female,O+,Obesity,Elective,2025-02-08,2025-02-20,12,Dr. Brown,Albuterol,Normal,Cigna,39204.27,432
+P00046,Patient_46,64,Male,O+,Cancer,Elective,2024-11-30,2024-12-21,21,Dr. Jones,Hydrochlorothiazide,Normal,United Health,30618.41,236
+P00047,Patient_47,52,Female,A+,Diabetes,Emergency,2024-07-27,2024-08-09,13,Dr. Smith,Atorvastatin,Critical,Blue Cross,56816.95,450
+P00048,Patient_48,53,Female,O+,Kidney Disease,Elective,2024-01-22,2024-02-01,10,Dr. Miller,Losartan,Normal,United Health,36731.35,337
+P00049,Patient_49,67,Male,O+,Heart Disease,Elective,2025-11-08,2025-11-19,11,Dr. Davis,Atorvastatin,Abnormal,Cigna,40422.03,348
+P00050,Patient_50,21,Female,B+,Hypertension,Emergency,2025-09-02,2025-09-13,11,Dr. Martinez,Losartan,Normal,Medicaid,48587.71,314
+P00051,Patient_51,19,Female,A-,Kidney Disease,Emergency,2024-07-26,2024-08-03,8,Dr. Davis,Losartan,Normal,United Health,26505.25,227
+P00052,Patient_52,23,Male,A-,Arthritis,Emergency,2024-01-08,2024-01-16,8,Dr. Jones,Hydrochlorothiazide,Normal,Medicare,33792.82,519
+P00053,Patient_53,71,Male,O+,Heart Disease,Elective,2025-12-02,2025-12-07,5,Dr. Williams,Lisinopril,Normal,Aetna,34073.14,431
+P00054,Patient_54,21,Male,B+,Cancer,Urgent,2025-11-17,2025-12-03,16,Dr. Hernandez,Metoprolol,Abnormal,Cigna,26308.55,146
+P00055,Patient_55,71,Male,O+,Arthritis,Emergency,2025-06-12,2025-06-22,10,Dr. Martinez,Hydrochlorothiazide,Critical,Cigna,35266.37,309
+P00056,Patient_56,80,Female,O+,Kidney Disease,Elective,2025-08-24,2025-09-03,10,Dr. Garcia,Lisinopril,Normal,Medicare,48176.57,338
+P00057,Patient_57,35,Female,A+,Diabetes,Emergency,2025-10-14,2025-10-16,2,Dr. Jones,Lisinopril,Abnormal,United Health,28630.22,117
+P00058,Patient_58,61,Male,O+,Diabetes,Urgent,2025-10-18,2025-10-23,5,Dr. Williams,Omeprazole,Normal,Blue Cross,10228.54,119
+P00059,Patient_59,51,Male,A+,Cancer,Emergency,2024-06-14,2024-06-30,16,Dr. Garcia,Levothyroxine,Normal,Medicaid,78412.19,244
+P00060,Patient_60,79,Male,O+,Asthma,Elective,2025-05-10,2025-05-11,1,Dr. Williams,Levothyroxine,Normal,Aetna,9138.28,404
+P00061,Patient_61,31,Male,O+,Flu,Elective,2025-08-12,2025-08-22,10,Dr. Hernandez,Levothyroxine,Critical,Blue Cross,23852.18,348
+P00062,Patient_62,65,Female,A+,Hypertension,Elective,2025-03-04,2025-03-15,11,Dr. Garcia,Gabapentin,Abnormal,Blue Cross,22978.68,511
+P00063,Patient_63,32,Male,B+,Asthma,Elective,2024-06-11,2024-06-25,14,Dr. Brown,Hydrochlorothiazide,Abnormal,Medicare,18613.49,222
+P00064,Patient_64,79,Male,A+,Diabetes,Emergency,2024-12-31,2025-01-11,11,Dr. Johnson,Lisinopril,Abnormal,United Health,27061.75,204
+P00065,Patient_65,57,Male,A+,Diabetes,Elective,2025-06-09,2025-06-17,8,Dr. Davis,Omeprazole,Abnormal,Cigna,35616.86,517
+P00066,Patient_66,70,Female,A-,Obesity,Emergency,2024-08-26,2024-08-29,3,Dr. Brown,Losartan,Critical,Cigna,20698.69,508
+P00067,Patient_67,41,Male,A-,Arthritis,Emergency,2024-03-12,2024-03-22,10,Dr. Martinez,Metoprolol,Abnormal,Medicare,21867.94,546
+P00068,Patient_68,43,Female,O-,Kidney Disease,Elective,2025-03-20,2025-03-24,4,Dr. Miller,Metoprolol,Critical,United Health,19389.43,134
+P00069,Patient_69,77,Male,B+,Hypertension,Emergency,2025-10-16,2025-10-31,15,Dr. Johnson,Losartan,Normal,Medicare,48361.52,311
+P00070,Patient_70,58,Female,A+,Cancer,Emergency,2025-05-23,2025-06-05,13,Dr. Brown,Atorvastatin,Normal,Cigna,62087.32,131
+P00071,Patient_71,46,Female,O+,Kidney Disease,Elective,2024-09-25,2024-09-30,5,Dr. Jones,Atorvastatin,Normal,Blue Cross,23760.45,311
+P00072,Patient_72,32,Male,A+,Obesity,Urgent,2025-02-18,2025-03-02,12,Dr. Williams,Levothyroxine,Normal,Medicaid,21948.06,138
+P00073,Patient_73,62,Male,O-,Diabetes,Elective,2024-09-01,2024-09-11,10,Dr. Martinez,Hydrochlorothiazide,Normal,United Health,18643.12,421
+P00074,Patient_74,82,Female,O+,Cancer,Emergency,2025-11-05,2025-11-19,14,Dr. Jones,Gabapentin,Normal,Aetna,50474.84,346
+P00075,Patient_75,26,Female,O+,Diabetes,Emergency,2024-02-29,2024-03-18,18,Dr. Johnson,Omeprazole,Abnormal,Aetna,44128.3,230
+P00076,Patient_76,18,Male,A+,Hypertension,Urgent,2024-01-06,2024-01-15,9,Dr. Williams,Metoprolol,Normal,Blue Cross,19084.99,310
+P00077,Patient_77,25,Female,B+,Arthritis,Emergency,2025-12-09,2025-12-17,8,Dr. Martinez,Levothyroxine,Normal,Medicare,20101.63,326
+P00078,Patient_78,80,Female,B+,Kidney Disease,Emergency,2025-07-23,2025-08-02,10,Dr. Miller,Metformin,Normal,Medicare,58154.29,327
+P00079,Patient_79,28,Female,O+,Kidney Disease,Elective,2025-02-10,2025-02-20,10,Dr. Johnson,Levothyroxine,Critical,Cigna,44375.67,408
+P00080,Patient_80,25,Male,A+,Asthma,Elective,2024-08-04,2024-08-15,11,Dr. Martinez,Metformin,Normal,Blue Cross,30385.53,139
+P00081,Patient_81,52,Female,A+,Cancer,Elective,2024-01-26,2024-02-03,8,Dr. Brown,Albuterol,Normal,Cigna,40858.3,208
+P00082,Patient_82,52,Male,O-,Flu,Emergency,2024-01-05,2024-01-14,9,Dr. Martinez,Lisinopril,Abnormal,Cigna,28971.83,108
+P00083,Patient_83,50,Female,B+,Obesity,Emergency,2025-06-15,2025-06-27,12,Dr. Johnson,Losartan,Abnormal,Aetna,39052.82,134
+P00084,Patient_84,22,Male,A-,Flu,Urgent,2025-01-24,2025-02-02,9,Dr. Hernandez,Lisinopril,Normal,Cigna,18742.93,516
+P00085,Patient_85,58,Male,A+,Asthma,Emergency,2025-12-10,2025-12-14,4,Dr. Brown,Levothyroxine,Normal,Cigna,22421.41,441
+P00086,Patient_86,45,Male,O-,Hypertension,Elective,2025-07-24,2025-08-07,14,Dr. Jones,Lisinopril,Normal,Aetna,38429.43,513
+P00087,Patient_87,24,Female,A+,Obesity,Elective,2025-03-23,2025-04-05,13,Dr. Johnson,Omeprazole,Critical,Medicare,24957.6,423
+P00088,Patient_88,29,Male,O+,Arthritis,Elective,2024-05-25,2024-06-05,11,Dr. Hernandez,Albuterol,Normal,United Health,34283.98,112
+P00089,Patient_89,51,Male,O+,Flu,Emergency,2025-01-22,2025-02-07,16,Dr. Smith,Gabapentin,Normal,Medicaid,47208.59,127
+P00090,Patient_90,50,Male,A+,Arthritis,Emergency,2024-09-05,2024-09-21,16,Dr. Miller,Albuterol,Normal,Cigna,43571.17,422
+P00091,Patient_91,65,Female,O+,Flu,Elective,2025-06-09,2025-06-11,2,Dr. Hernandez,Metoprolol,Normal,United Health,17780.81,132
+P00092,Patient_92,40,Female,A+,Arthritis,Urgent,2025-04-06,2025-04-17,11,Dr. Smith,Omeprazole,Abnormal,Aetna,19955.44,149
+P00093,Patient_93,79,Male,A+,Flu,Urgent,2024-01-13,2024-01-25,12,Dr. Davis,Lisinopril,Normal,United Health,23100.02,227
+P00094,Patient_94,54,Female,O+,Arthritis,Emergency,2025-01-18,2025-01-28,10,Dr. Williams,Gabapentin,Normal,Medicaid,26629.53,502
+P00095,Patient_95,61,Female,O+,Asthma,Emergency,2025-07-09,2025-07-21,12,Dr. Hernandez,Lisinopril,Normal,United Health,20204.14,545
+P00096,Patient_96,52,Female,O+,Heart Disease,Urgent,2025-02-02,2025-02-07,5,Dr. Garcia,Hydrochlorothiazide,Normal,United Health,40616.19,533
+P00097,Patient_97,82,Male,B-,Obesity,Elective,2024-01-19,2024-01-27,8,Dr. Miller,Hydrochlorothiazide,Normal,United Health,14479.27,326
+P00098,Patient_98,64,Male,A+,Cancer,Urgent,2025-07-28,2025-08-10,13,Dr. Hernandez,Atorvastatin,Abnormal,United Health,46694.89,228
+P00099,Patient_99,20,Male,A+,Hypertension,Emergency,2025-05-05,2025-05-16,11,Dr. Smith,Albuterol,Abnormal,Blue Cross,40843.39,519
+P00100,Patient_100,18,Male,A+,Pneumonia,Elective,2025-02-22,2025-03-02,8,Dr. Garcia,Gabapentin,Critical,Cigna,31792.16,543
+P00101,Patient_101,22,Male,A+,Diabetes,Elective,2024-12-02,2024-12-06,4,Dr. Miller,Hydrochlorothiazide,Abnormal,Aetna,17087.44,205
+P00102,Patient_102,31,Female,A-,Cancer,Elective,2025-02-22,2025-03-09,15,Dr. Garcia,Atorvastatin,Abnormal,Medicaid,58418.81,133
+P00103,Patient_103,44,Male,A-,Diabetes,Elective,2025-09-03,2025-09-04,1,Dr. Brown,Omeprazole,Normal,Aetna,17693.54,520
+P00104,Patient_104,26,Male,A-,Obesity,Emergency,2025-11-05,2025-11-10,5,Dr. Smith,Gabapentin,Abnormal,Blue Cross,23939.72,130
+P00105,Patient_105,32,Female,A+,Cancer,Elective,2024-05-01,2024-05-19,18,Dr. Martinez,Atorvastatin,Abnormal,Blue Cross,30454.28,545
+P00106,Patient_106,59,Male,B-,Arthritis,Emergency,2025-03-07,2025-03-16,9,Dr. Brown,Losartan,Abnormal,Blue Cross,27532.83,408
+P00107,Patient_107,68,Female,O+,Arthritis,Elective,2024-02-13,2024-02-15,2,Dr. Miller,Gabapentin,Normal,Cigna,23487.1,338
+P00108,Patient_108,80,Female,A+,Pneumonia,Urgent,2024-11-12,2024-11-15,3,Dr. Miller,Levothyroxine,Normal,Blue Cross,20138.26,517
+P00109,Patient_109,69,Male,O-,Diabetes,Elective,2025-01-15,2025-01-25,10,Dr. Johnson,Atorvastatin,Abnormal,United Health,31044.46,444
+P00110,Patient_110,21,Female,O+,Hypertension,Elective,2024-05-24,2024-06-01,8,Dr. Smith,Lisinopril,Abnormal,Aetna,19609.33,201
+P00111,Patient_111,40,Female,A+,Obesity,Emergency,2024-11-22,2024-11-28,6,Dr. Davis,Levothyroxine,Critical,Medicare,22902.14,403
+P00112,Patient_112,32,Female,O+,Arthritis,Elective,2024-12-28,2025-01-05,8,Dr. Davis,Losartan,Normal,Medicaid,10982.69,246
+P00113,Patient_113,60,Female,O+,Heart Disease,Urgent,2024-02-19,2024-03-03,13,Dr. Miller,Hydrochlorothiazide,Normal,Blue Cross,30187.18,526
+P00114,Patient_114,46,Female,O+,Asthma,Emergency,2024-03-05,2024-03-22,17,Dr. Davis,Metformin,Normal,Aetna,44819.71,231
+P00115,Patient_115,53,Female,A-,Asthma,Emergency,2024-12-20,2025-01-03,14,Dr. Williams,Atorvastatin,Abnormal,Blue Cross,40292.32,408
+P00116,Patient_116,30,Male,B-,Flu,Elective,2024-06-12,2024-06-25,13,Dr. Johnson,Omeprazole,Normal,Cigna,25005.21,343
+P00117,Patient_117,49,Male,A-,Hypertension,Emergency,2024-05-20,2024-05-26,6,Dr. Miller,Atorvastatin,Normal,Blue Cross,26184.42,146
+P00118,Patient_118,76,Male,AB+,Asthma,Elective,2024-05-07,2024-05-16,9,Dr. Davis,Metformin,Critical,Blue Cross,26355.1,108
+P00119,Patient_119,45,Female,O+,Flu,Urgent,2025-02-01,2025-02-05,4,Dr. Smith,Losartan,Normal,Blue Cross,17359.13,335
+P00120,Patient_120,83,Male,O+,Diabetes,Elective,2025-04-07,2025-04-13,6,Dr. Hernandez,Losartan,Abnormal,Blue Cross,13848.19,139
+P00121,Patient_121,59,Female,AB+,Arthritis,Emergency,2024-07-05,2024-07-08,3,Dr. Martinez,Levothyroxine,Normal,Medicaid,12603.08,528
+P00122,Patient_122,62,Female,O+,Arthritis,Elective,2025-12-20,2025-12-22,2,Dr. Brown,Gabapentin,Abnormal,Aetna,11694.61,504
+P00123,Patient_123,79,Female,A+,Heart Disease,Elective,2024-07-08,2024-07-17,9,Dr. Brown,Omeprazole,Normal,Cigna,21765.24,416
+P00124,Patient_124,74,Female,A+,Cancer,Emergency,2025-01-22,2025-02-04,13,Dr. Williams,Levothyroxine,Critical,Blue Cross,48718.41,413
+P00125,Patient_125,23,Female,O+,Asthma,Elective,2025-03-04,2025-03-11,7,Dr. Garcia,Omeprazole,Critical,Blue Cross,10719.96,220
+P00126,Patient_126,45,Female,A+,Diabetes,Elective,2024-10-10,2024-10-23,13,Dr. Smith,Omeprazole,Normal,Blue Cross,30518.86,405
+P00127,Patient_127,45,Male,A+,Kidney Disease,Elective,2024-08-24,2024-09-01,8,Dr. Garcia,Metformin,Normal,Blue Cross,29641.3,537
+P00128,Patient_128,61,Female,A+,Asthma,Emergency,2024-07-12,2024-07-27,15,Dr. Johnson,Levothyroxine,Normal,United Health,52449.16,420
+P00129,Patient_129,47,Male,A+,Hypertension,Elective,2024-10-13,2024-10-26,13,Dr. Martinez,Omeprazole,Abnormal,United Health,24565.75,124
+P00130,Patient_130,79,Male,O-,Cancer,Emergency,2024-05-15,2024-05-17,2,Dr. Johnson,Metoprolol,Abnormal,Medicare,25879.49,236
+P00131,Patient_131,79,Female,O+,Asthma,Emergency,2024-06-19,2024-06-28,9,Dr. Miller,Metformin,Normal,Blue Cross,24604.88,234
+P00132,Patient_132,18,Female,O-,Diabetes,Urgent,2024-06-07,2024-06-14,7,Dr. Smith,Losartan,Abnormal,Medicare,14344.14,545
+P00133,Patient_133,44,Male,O+,Asthma,Elective,2024-07-19,2024-07-30,11,Dr. Miller,Metformin,Normal,Medicaid,37703.04,448
+P00134,Patient_134,79,Female,B+,Hypertension,Emergency,2025-05-01,2025-05-05,4,Dr. Jones,Lisinopril,Abnormal,Medicare,10638.71,134
+P00135,Patient_135,20,Female,A+,Kidney Disease,Emergency,2025-07-10,2025-07-15,5,Dr. Davis,Lisinopril,Critical,Aetna,67372.92,419
+P00136,Patient_136,44,Female,O+,Obesity,Emergency,2025-08-05,2025-08-13,8,Dr. Brown,Omeprazole,Normal,United Health,37121.37,317
+P00137,Patient_137,26,Female,A+,Pneumonia,Emergency,2025-05-18,2025-05-25,7,Dr. Hernandez,Levothyroxine,Normal,United Health,25520.24,405
+P00138,Patient_138,79,Female,O+,Kidney Disease,Emergency,2025-01-05,2025-01-18,13,Dr. Miller,Losartan,Normal,Blue Cross,51876.74,525
+P00139,Patient_139,54,Female,O+,Flu,Emergency,2024-04-12,2024-04-26,14,Dr. Garcia,Metformin,Normal,Blue Cross,35213.34,418
+P00140,Patient_140,68,Female,A+,Asthma,Elective,2024-05-04,2024-05-18,14,Dr. Jones,Levothyroxine,Normal,Medicaid,29680.06,250
+P00141,Patient_141,61,Female,O-,Arthritis,Elective,2024-11-08,2024-11-14,6,Dr. Brown,Metformin,Normal,Cigna,24146.8,108
+P00142,Patient_142,41,Female,O+,Heart Disease,Elective,2025-04-02,2025-04-22,20,Dr. Miller,Metformin,Normal,Medicaid,28158.09,527
+P00143,Patient_143,76,Female,O+,Arthritis,Elective,2024-08-17,2024-08-29,12,Dr. Jones,Metoprolol,Normal,Aetna,12191.85,315
+P00144,Patient_144,49,Male,A+,Kidney Disease,Emergency,2025-10-19,2025-10-29,10,Dr. Jones,Lisinopril,Normal,Blue Cross,53091.05,145
+P00145,Patient_145,69,Male,B+,Arthritis,Urgent,2024-07-15,2024-07-24,9,Dr. Smith,Metformin,Normal,Blue Cross,22078.2,113
+P00146,Patient_146,79,Male,B-,Diabetes,Elective,2025-02-26,2025-02-27,1,Dr. Johnson,Metoprolol,Normal,Medicaid,23862.57,216
+P00147,Patient_147,75,Male,A+,Arthritis,Elective,2025-07-25,2025-07-28,3,Dr. Jones,Lisinopril,Abnormal,Medicaid,9603.98,222
+P00148,Patient_148,69,Female,A+,Cancer,Elective,2025-09-01,2025-09-17,16,Dr. Williams,Metoprolol,Abnormal,Medicaid,58231.1,220
+P00149,Patient_149,29,Female,O+,Obesity,Urgent,2024-06-19,2024-06-26,7,Dr. Johnson,Levothyroxine,Normal,United Health,14910.52,513
+P00150,Patient_150,56,Female,A+,Asthma,Elective,2025-01-16,2025-01-22,6,Dr. Brown,Gabapentin,Normal,Medicare,16403.31,420
+P00151,Patient_151,19,Male,O+,Arthritis,Emergency,2024-06-21,2024-06-28,7,Dr. Brown,Lisinopril,Abnormal,Medicare,21310.51,102
+P00152,Patient_152,20,Female,O-,Hypertension,Elective,2025-10-24,2025-11-01,8,Dr. Brown,Hydrochlorothiazide,Critical,Blue Cross,22209.09,435
+P00153,Patient_153,73,Female,O+,Obesity,Elective,2025-03-28,2025-04-03,6,Dr. Brown,Gabapentin,Normal,United Health,13578.03,447
+P00154,Patient_154,76,Female,A+,Obesity,Elective,2024-12-15,2024-12-18,3,Dr. Williams,Levothyroxine,Normal,Medicaid,18546.25,219
+P00155,Patient_155,19,Female,O+,Arthritis,Elective,2025-09-25,2025-09-27,2,Dr. Miller,Metformin,Normal,Blue Cross,22560.46,445
+P00156,Patient_156,19,Female,A+,Obesity,Emergency,2025-05-08,2025-05-22,14,Dr. Martinez,Losartan,Normal,United Health,27299.56,137
+P00157,Patient_157,71,Male,A+,Heart Disease,Elective,2025-09-11,2025-09-21,10,Dr. Jones,Levothyroxine,Normal,Aetna,37502.47,106
+P00158,Patient_158,18,Female,O+,Arthritis,Urgent,2024-01-04,2024-01-16,12,Dr. Brown,Metoprolol,Normal,Cigna,35244.47,314
+P00159,Patient_159,36,Male,A-,Diabetes,Elective,2024-04-02,2024-04-14,12,Dr. Johnson,Metoprolol,Abnormal,United Health,36675.61,504
+P00160,Patient_160,19,Male,A-,Kidney Disease,Elective,2024-01-06,2024-01-21,15,Dr. Johnson,Metoprolol,Normal,Blue Cross,46726.73,422
+P00161,Patient_161,70,Female,O+,Cancer,Emergency,2024-10-14,2024-10-26,12,Dr. Jones,Metoprolol,Normal,Medicare,42525.57,539
+P00162,Patient_162,61,Male,A+,Pneumonia,Elective,2025-09-09,2025-09-10,1,Dr. Miller,Levothyroxine,Normal,Medicaid,23771.94,536
+P00163,Patient_163,49,Female,A+,Flu,Urgent,2024-05-25,2024-05-28,3,Dr. Hernandez,Losartan,Normal,Cigna,20824.11,534
+P00164,Patient_164,49,Male,B+,Obesity,Elective,2025-02-27,2025-03-11,12,Dr. Hernandez,Atorvastatin,Normal,Aetna,25363.49,527
+P00165,Patient_165,72,Female,O+,Diabetes,Elective,2025-08-30,2025-09-10,11,Dr. Martinez,Metoprolol,Normal,Cigna,19435.16,107
+P00166,Patient_166,73,Male,O+,Asthma,Elective,2025-04-01,2025-04-05,4,Dr. Miller,Atorvastatin,Abnormal,Cigna,24011.68,403
+P00167,Patient_167,34,Female,A+,Asthma,Elective,2024-07-20,2024-08-02,13,Dr. Jones,Losartan,Normal,United Health,15797.15,347
+P00168,Patient_168,55,Female,B+,Flu,Emergency,2024-07-30,2024-08-16,17,Dr. Hernandez,Losartan,Abnormal,Blue Cross,54492.1,533
+P00169,Patient_169,41,Male,A+,Cancer,Elective,2024-01-06,2024-01-10,4,Dr. Hernandez,Gabapentin,Critical,Blue Cross,22649.82,302
+P00170,Patient_170,28,Female,A+,Obesity,Elective,2025-09-15,2025-09-20,5,Dr. Hernandez,Lisinopril,Normal,Cigna,25937.47,142
+P00171,Patient_171,33,Female,O+,Heart Disease,Elective,2025-01-10,2025-01-26,16,Dr. Garcia,Hydrochlorothiazide,Normal,Medicaid,32970.37,116
+P00172,Patient_172,76,Male,A+,Flu,Elective,2025-03-22,2025-03-25,3,Dr. Williams,Omeprazole,Normal,Blue Cross,18515.07,225
+P00173,Patient_173,20,Male,A+,Cancer,Urgent,2024-04-15,2024-04-19,4,Dr. Jones,Hydrochlorothiazide,Abnormal,Cigna,41755.34,515
+P00174,Patient_174,37,Female,O+,Obesity,Emergency,2025-10-12,2025-10-18,6,Dr. Davis,Levothyroxine,Critical,Blue Cross,28072.53,224
+P00175,Patient_175,76,Female,O+,Diabetes,Elective,2025-02-04,2025-02-12,8,Dr. Smith,Omeprazole,Abnormal,Medicaid,25062.88,315
+P00176,Patient_176,53,Female,O+,Kidney Disease,Emergency,2024-04-05,2024-04-12,7,Dr. Smith,Losartan,Normal,Aetna,24320.67,431
+P00177,Patient_177,36,Female,A+,Heart Disease,Elective,2025-01-22,2025-02-06,15,Dr. Miller,Hydrochlorothiazide,Abnormal,Cigna,38825.61,214
+P00178,Patient_178,84,Male,A+,Pneumonia,Emergency,2025-03-27,2025-04-12,16,Dr. Jones,Albuterol,Normal,Medicare,40845.49,114
+P00179,Patient_179,36,Male,A+,Asthma,Emergency,2025-02-19,2025-02-27,8,Dr. Jones,Lisinopril,Normal,Medicare,34859.65,506
+P00180,Patient_180,37,Female,A+,Hypertension,Elective,2025-12-26,2026-01-07,12,Dr. Smith,Hydrochlorothiazide,Normal,Cigna,21723.36,314
+P00181,Patient_181,69,Male,O+,Diabetes,Emergency,2025-05-18,2025-05-24,6,Dr. Martinez,Lisinopril,Normal,United Health,20247.94,117
+P00182,Patient_182,50,Male,O+,Asthma,Elective,2025-03-29,2025-04-04,6,Dr. Smith,Atorvastatin,Abnormal,Aetna,19193.51,418
+P00183,Patient_183,57,Female,O+,Arthritis,Urgent,2024-10-17,2024-10-29,12,Dr. Jones,Levothyroxine,Normal,United Health,27715.75,520
+P00184,Patient_184,56,Female,O+,Hypertension,Emergency,2025-06-17,2025-06-24,7,Dr. Hernandez,Lisinopril,Normal,Medicare,36422.23,417
+P00185,Patient_185,18,Female,B+,Asthma,Elective,2024-07-11,2024-07-23,12,Dr. Martinez,Atorvastatin,Normal,Medicaid,17209.81,416
+P00186,Patient_186,28,Female,O+,Cancer,Elective,2024-05-29,2024-06-15,17,Dr. Brown,Metoprolol,Abnormal,Cigna,32545.19,540
+P00187,Patient_187,74,Female,A-,Heart Disease,Elective,2025-05-29,2025-06-18,20,Dr. Davis,Atorvastatin,Abnormal,Blue Cross,76683.73,539
+P00188,Patient_188,67,Female,AB+,Asthma,Emergency,2025-01-27,2025-02-04,8,Dr. Garcia,Levothyroxine,Normal,Medicare,26011.32,432
+P00189,Patient_189,40,Female,B+,Pneumonia,Emergency,2024-11-11,2024-11-27,16,Dr. Williams,Gabapentin,Normal,Aetna,47486.28,344
+P00190,Patient_190,48,Male,A+,Kidney Disease,Emergency,2024-03-16,2024-03-23,7,Dr. Brown,Metoprolol,Normal,Medicare,53182.43,509
+P00191,Patient_191,59,Male,A-,Cancer,Emergency,2025-08-21,2025-08-28,7,Dr. Johnson,Losartan,Critical,Aetna,61874.82,127
+P00192,Patient_192,24,Female,O-,Diabetes,Emergency,2024-09-26,2024-10-06,10,Dr. Smith,Metformin,Normal,Aetna,21083.03,246
+P00193,Patient_193,33,Female,A+,Diabetes,Elective,2024-08-12,2024-08-17,5,Dr. Davis,Atorvastatin,Normal,Cigna,24816.48,333
+P00194,Patient_194,77,Male,A+,Diabetes,Urgent,2025-06-13,2025-06-23,10,Dr. Smith,Atorvastatin,Normal,Aetna,32818.34,510
+P00195,Patient_195,19,Male,B+,Diabetes,Elective,2024-04-22,2024-04-30,8,Dr. Smith,Lisinopril,Normal,United Health,22951.02,517
+P00196,Patient_196,18,Male,O+,Kidney Disease,Elective,2024-09-07,2024-09-14,7,Dr. Brown,Losartan,Abnormal,Medicaid,27634.82,349
+P00197,Patient_197,65,Male,O+,Asthma,Emergency,2024-08-20,2024-08-30,10,Dr. Hernandez,Hydrochlorothiazide,Normal,Medicare,24841.4,249
+P00198,Patient_198,29,Female,O+,Obesity,Emergency,2025-12-14,2025-12-23,9,Dr. Hernandez,Albuterol,Normal,Medicaid,27009.42,436
+P00199,Patient_199,54,Male,A+,Asthma,Emergency,2024-03-23,2024-03-27,4,Dr. Garcia,Omeprazole,Normal,Blue Cross,24387.36,117
+P00200,Patient_200,49,Female,O+,Arthritis,Emergency,2024-05-04,2024-05-10,6,Dr. Martinez,Atorvastatin,Normal,Medicare,26240.65,518
+P00201,Patient_201,26,Female,A+,Heart Disease,Elective,2024-06-23,2024-07-05,12,Dr. Smith,Hydrochlorothiazide,Critical,Medicaid,34676.44,223
+P00202,Patient_202,36,Female,O+,Hypertension,Elective,2024-03-09,2024-03-12,3,Dr. Miller,Albuterol,Normal,Medicaid,17779.44,134
+P00203,Patient_203,65,Female,O+,Obesity,Elective,2024-02-16,2024-02-23,7,Dr. Hernandez,Omeprazole,Abnormal,Cigna,19965.83,308
+P00204,Patient_204,20,Male,A+,Obesity,Elective,2024-09-12,2024-09-23,11,Dr. Jones,Metformin,Abnormal,Cigna,27926.47,513
+P00205,Patient_205,37,Female,A+,Asthma,Elective,2025-12-27,2026-01-07,11,Dr. Davis,Lisinopril,Normal,Blue Cross,33275.46,423
+P00206,Patient_206,41,Male,A+,Obesity,Elective,2024-01-30,2024-02-06,7,Dr. Miller,Hydrochlorothiazide,Normal,Aetna,12155.93,320
+P00207,Patient_207,71,Male,A-,Flu,Emergency,2024-10-07,2024-10-21,14,Dr. Brown,Lisinopril,Normal,Medicare,34917.78,522
+P00208,Patient_208,50,Female,A+,Flu,Urgent,2024-08-24,2024-09-06,13,Dr. Brown,Omeprazole,Abnormal,Cigna,20878.99,247
+P00209,Patient_209,41,Male,O+,Arthritis,Urgent,2024-09-04,2024-09-15,11,Dr. Garcia,Gabapentin,Normal,Medicare,24643.92,123
+P00210,Patient_210,53,Male,B-,Hypertension,Emergency,2025-01-02,2025-01-04,2,Dr. Garcia,Atorvastatin,Normal,Blue Cross,27020.62,141
+P00211,Patient_211,55,Female,A+,Pneumonia,Elective,2025-05-09,2025-05-16,7,Dr. Martinez,Metoprolol,Normal,Cigna,28003.26,535
+P00212,Patient_212,42,Male,A+,Kidney Disease,Elective,2024-01-25,2024-02-01,7,Dr. Jones,Albuterol,Abnormal,Cigna,22176.95,303
+P00213,Patient_213,35,Female,A+,Asthma,Urgent,2025-08-08,2025-08-13,5,Dr. Davis,Losartan,Normal,Aetna,29552.77,434
+P00214,Patient_214,83,Male,O+,Kidney Disease,Urgent,2025-12-18,2025-12-30,12,Dr. Jones,Levothyroxine,Normal,Medicare,21934.57,233
+P00215,Patient_215,71,Female,A+,Pneumonia,Emergency,2025-05-04,2025-05-12,8,Dr. Johnson,Atorvastatin,Normal,Medicare,29993.23,546
+P00216,Patient_216,52,Female,O+,Asthma,Elective,2025-05-08,2025-05-15,7,Dr. Garcia,Metoprolol,Normal,Medicare,10857.66,217
+P00217,Patient_217,78,Female,O+,Asthma,Elective,2024-11-09,2024-11-20,11,Dr. Martinez,Levothyroxine,Abnormal,Aetna,38911.67,145
+P00218,Patient_218,58,Female,O+,Hypertension,Elective,2025-08-28,2025-09-10,13,Dr. Williams,Hydrochlorothiazide,Normal,Cigna,33206.21,419
+P00219,Patient_219,50,Male,O+,Kidney Disease,Emergency,2025-01-09,2025-01-23,14,Dr. Smith,Levothyroxine,Abnormal,Blue Cross,55797.09,230
+P00220,Patient_220,50,Female,A-,Flu,Urgent,2025-09-30,2025-10-02,2,Dr. Smith,Metformin,Abnormal,Medicare,23286.61,523
+P00221,Patient_221,31,Male,O-,Diabetes,Elective,2024-01-25,2024-02-02,8,Dr. Williams,Atorvastatin,Normal,Medicaid,13685.36,415
+P00222,Patient_222,38,Female,A+,Kidney Disease,Elective,2024-11-29,2024-12-08,9,Dr. Hernandez,Lisinopril,Abnormal,Aetna,22048.07,314
+P00223,Patient_223,65,Male,A+,Heart Disease,Urgent,2024-12-20,2025-01-03,14,Dr. Jones,Gabapentin,Normal,United Health,44778.26,502
+P00224,Patient_224,37,Female,O+,Heart Disease,Elective,2024-04-25,2024-05-01,6,Dr. Williams,Losartan,Normal,Blue Cross,27490.31,239
+P00225,Patient_225,25,Male,O-,Asthma,Elective,2024-02-17,2024-02-27,10,Dr. Martinez,Lisinopril,Abnormal,Medicaid,17811.16,449
+P00226,Patient_226,24,Female,O+,Diabetes,Elective,2024-04-08,2024-04-15,7,Dr. Davis,Metoprolol,Normal,Medicare,24159.7,518
+P00227,Patient_227,84,Female,A+,Cancer,Emergency,2025-04-03,2025-04-09,6,Dr. Williams,Atorvastatin,Abnormal,United Health,40857.33,406
+P00228,Patient_228,34,Female,A+,Pneumonia,Elective,2025-06-06,2025-06-10,4,Dr. Martinez,Gabapentin,Normal,Blue Cross,10835.85,432
+P00229,Patient_229,50,Male,O-,Arthritis,Emergency,2025-08-19,2025-08-31,12,Dr. Garcia,Levothyroxine,Critical,Aetna,40562.25,421
+P00230,Patient_230,65,Female,A+,Diabetes,Elective,2025-02-08,2025-02-14,6,Dr. Miller,Atorvastatin,Normal,United Health,9419.08,240
+P00231,Patient_231,76,Male,O+,Arthritis,Emergency,2024-08-01,2024-08-16,15,Dr. Brown,Levothyroxine,Normal,Cigna,34950.62,528
+P00232,Patient_232,39,Male,O+,Kidney Disease,Emergency,2025-11-15,2025-11-24,9,Dr. Brown,Hydrochlorothiazide,Normal,United Health,56420.08,127
+P00233,Patient_233,47,Male,B-,Kidney Disease,Emergency,2025-05-17,2025-05-23,6,Dr. Johnson,Metformin,Abnormal,Medicaid,56903.67,102
+P00234,Patient_234,55,Male,A-,Arthritis,Emergency,2025-12-21,2026-01-04,14,Dr. Jones,Omeprazole,Abnormal,Blue Cross,36954.32,233
+P00235,Patient_235,68,Female,B+,Pneumonia,Elective,2025-03-23,2025-04-01,9,Dr. Davis,Atorvastatin,Normal,Medicaid,17738.88,216
+P00236,Patient_236,71,Female,A+,Diabetes,Elective,2025-07-29,2025-08-03,5,Dr. Miller,Metoprolol,Abnormal,Medicaid,27674.04,439
+P00237,Patient_237,25,Male,O+,Cancer,Elective,2024-09-14,2024-09-29,15,Dr. Miller,Levothyroxine,Normal,Medicare,55561.42,522
+P00238,Patient_238,44,Male,B+,Asthma,Emergency,2024-04-30,2024-05-12,12,Dr. Garcia,Lisinopril,Normal,Aetna,20268.86,543
+P00239,Patient_239,44,Male,O+,Hypertension,Emergency,2024-02-23,2024-03-11,17,Dr. Williams,Hydrochlorothiazide,Abnormal,United Health,63033.49,347
+P00240,Patient_240,38,Male,A+,Kidney Disease,Emergency,2024-11-26,2024-12-10,14,Dr. Jones,Metoprolol,Abnormal,Blue Cross,59237.73,313
+P00241,Patient_241,47,Female,O-,Heart Disease,Emergency,2024-08-28,2024-08-29,1,Dr. Smith,Losartan,Abnormal,Cigna,40768.61,102
+P00242,Patient_242,45,Male,B+,Pneumonia,Urgent,2025-06-13,2025-06-20,7,Dr. Miller,Omeprazole,Abnormal,Aetna,25056.4,314
+P00243,Patient_243,81,Male,A+,Hypertension,Emergency,2025-04-27,2025-05-01,4,Dr. Martinez,Hydrochlorothiazide,Normal,Aetna,15052.86,338
+P00244,Patient_244,78,Male,A+,Cancer,Elective,2024-07-05,2024-07-17,12,Dr. Smith,Metformin,Abnormal,Blue Cross,38272.21,141
+P00245,Patient_245,65,Female,O+,Obesity,Emergency,2025-10-17,2025-10-23,6,Dr. Johnson,Omeprazole,Normal,Aetna,30704.73,128
+P00246,Patient_246,36,Female,O+,Asthma,Emergency,2024-09-18,2024-09-27,9,Dr. Williams,Levothyroxine,Normal,Medicare,25771.4,307
+P00247,Patient_247,21,Female,O+,Kidney Disease,Elective,2024-12-29,2025-01-15,17,Dr. Williams,Metoprolol,Normal,Aetna,47854.46,518
+P00248,Patient_248,52,Female,A+,Asthma,Elective,2025-05-05,2025-05-06,1,Dr. Davis,Losartan,Normal,Medicare,21611.79,341
+P00249,Patient_249,81,Female,A+,Hypertension,Emergency,2025-03-06,2025-03-19,13,Dr. Miller,Albuterol,Normal,United Health,43712.11,436
+P00250,Patient_250,66,Male,B-,Asthma,Emergency,2024-08-26,2024-09-06,11,Dr. Garcia,Metformin,Normal,United Health,35905.81,441
+P00251,Patient_251,34,Female,A-,Obesity,Elective,2024-10-30,2024-11-01,2,Dr. Hernandez,Gabapentin,Normal,Medicaid,22019.34,436
+P00252,Patient_252,61,Female,B+,Hypertension,Emergency,2024-10-24,2024-11-05,12,Dr. Hernandez,Levothyroxine,Normal,Medicare,46527.79,244
+P00253,Patient_253,47,Female,O-,Kidney Disease,Emergency,2024-03-16,2024-03-28,12,Dr. Brown,Albuterol,Normal,Cigna,67948.26,404
+P00254,Patient_254,63,Female,O-,Diabetes,Urgent,2025-11-30,2025-12-02,2,Dr. Martinez,Atorvastatin,Normal,United Health,10684.09,530
+P00255,Patient_255,23,Female,O-,Heart Disease,Elective,2024-11-28,2024-12-12,14,Dr. Smith,Losartan,Normal,Aetna,29174.07,224
+P00256,Patient_256,54,Female,O+,Hypertension,Elective,2025-10-03,2025-10-09,6,Dr. Johnson,Lisinopril,Abnormal,Blue Cross,18596.61,220
+P00257,Patient_257,41,Female,A-,Flu,Elective,2025-04-18,2025-04-29,11,Dr. Brown,Gabapentin,Abnormal,Blue Cross,17646.18,446
+P00258,Patient_258,63,Female,B+,Obesity,Elective,2024-10-09,2024-10-18,9,Dr. Williams,Metoprolol,Abnormal,Medicare,18595.13,331
+P00259,Patient_259,70,Female,AB-,Hypertension,Elective,2025-08-13,2025-08-26,13,Dr. Smith,Losartan,Normal,Cigna,17470.95,124
+P00260,Patient_260,77,Female,O+,Hypertension,Elective,2024-03-12,2024-03-18,6,Dr. Jones,Omeprazole,Abnormal,Medicaid,20147.2,307
+P00261,Patient_261,80,Male,A+,Flu,Elective,2024-09-19,2024-09-25,6,Dr. Miller,Hydrochlorothiazide,Normal,Aetna,26928.02,326
+P00262,Patient_262,49,Female,B+,Kidney Disease,Emergency,2025-12-03,2025-12-16,13,Dr. Johnson,Omeprazole,Normal,Medicare,38582.06,213
+P00263,Patient_263,50,Male,A+,Hypertension,Elective,2025-07-28,2025-08-08,11,Dr. Jones,Omeprazole,Normal,Blue Cross,33305.13,208
+P00264,Patient_264,84,Female,AB+,Heart Disease,Elective,2024-01-12,2024-02-01,20,Dr. Garcia,Atorvastatin,Abnormal,Medicare,50866.42,205
+P00265,Patient_265,35,Female,O+,Asthma,Urgent,2024-05-20,2024-05-22,2,Dr. Miller,Metformin,Normal,Aetna,8876.66,544
+P00266,Patient_266,42,Female,O+,Kidney Disease,Elective,2025-07-08,2025-07-20,12,Dr. Smith,Lisinopril,Normal,Cigna,62033.46,513
+P00267,Patient_267,71,Male,A+,Heart Disease,Elective,2024-01-17,2024-01-25,8,Dr. Miller,Gabapentin,Normal,Cigna,38793.97,129
+P00268,Patient_268,75,Male,O-,Kidney Disease,Emergency,2024-03-03,2024-03-14,11,Dr. Brown,Metformin,Abnormal,United Health,52707.4,220
+P00269,Patient_269,84,Male,O+,Heart Disease,Elective,2024-09-09,2024-09-18,9,Dr. Davis,Losartan,Abnormal,Aetna,42546.6,414
+P00270,Patient_270,63,Female,A+,Obesity,Emergency,2025-04-09,2025-04-13,4,Dr. Brown,Omeprazole,Normal,United Health,19784.38,232
+P00271,Patient_271,41,Male,A+,Heart Disease,Emergency,2025-01-10,2025-01-14,4,Dr. Garcia,Atorvastatin,Normal,United Health,41012.86,550
+P00272,Patient_272,49,Male,A+,Arthritis,Emergency,2025-06-03,2025-06-12,9,Dr. Martinez,Losartan,Normal,United Health,14820.55,227
+P00273,Patient_273,64,Male,A+,Heart Disease,Elective,2024-03-30,2024-04-04,5,Dr. Jones,Hydrochlorothiazide,Abnormal,Medicare,37955.27,525
+P00274,Patient_274,40,Female,O-,Diabetes,Emergency,2025-12-20,2025-12-23,3,Dr. Brown,Lisinopril,Normal,Blue Cross,21670.05,204
+P00275,Patient_275,83,Female,B+,Diabetes,Elective,2025-09-21,2025-09-22,1,Dr. Davis,Gabapentin,Abnormal,Cigna,19079.6,421
+P00276,Patient_276,44,Male,O+,Pneumonia,Urgent,2024-06-23,2024-06-27,4,Dr. Martinez,Hydrochlorothiazide,Normal,Medicare,12809.82,118
+P00277,Patient_277,19,Male,A+,Arthritis,Emergency,2024-03-16,2024-03-30,14,Dr. Brown,Atorvastatin,Abnormal,Blue Cross,45118.02,439
+P00278,Patient_278,34,Female,A+,Arthritis,Elective,2025-09-04,2025-09-12,8,Dr. Williams,Lisinopril,Normal,Cigna,30119.32,515
+P00279,Patient_279,50,Female,B+,Asthma,Elective,2025-10-24,2025-11-06,13,Dr. Davis,Losartan,Normal,Aetna,28584.63,338
+P00280,Patient_280,26,Female,A+,Arthritis,Emergency,2025-02-03,2025-02-09,6,Dr. Jones,Omeprazole,Normal,Cigna,29247.39,448
+P00281,Patient_281,60,Male,B+,Asthma,Elective,2024-03-11,2024-03-25,14,Dr. Johnson,Omeprazole,Normal,Cigna,29205.27,224
+P00282,Patient_282,65,Female,O+,Pneumonia,Emergency,2024-06-28,2024-06-29,1,Dr. Hernandez,Levothyroxine,Normal,Cigna,30841.32,108
+P00283,Patient_283,56,Female,AB+,Pneumonia,Elective,2024-05-03,2024-05-07,4,Dr. Martinez,Omeprazole,Abnormal,Medicaid,17292.88,228
+P00284,Patient_284,59,Female,O+,Obesity,Elective,2025-01-15,2025-01-24,9,Dr. Williams,Albuterol,Normal,Aetna,35271.41,221
+P00285,Patient_285,43,Female,A+,Diabetes,Elective,2024-10-19,2024-11-01,13,Dr. Johnson,Omeprazole,Abnormal,Medicare,29180.41,416
+P00286,Patient_286,67,Male,A+,Heart Disease,Elective,2024-07-13,2024-07-17,4,Dr. Smith,Albuterol,Abnormal,Medicare,23249.23,116
+P00287,Patient_287,42,Male,A+,Heart Disease,Emergency,2024-08-15,2024-08-31,16,Dr. Davis,Metoprolol,Normal,Blue Cross,61733.45,335
+P00288,Patient_288,41,Female,O+,Flu,Emergency,2025-03-06,2025-03-22,16,Dr. Williams,Albuterol,Abnormal,Medicare,33736.3,217
+P00289,Patient_289,30,Female,A+,Flu,Elective,2025-03-11,2025-03-22,11,Dr. Miller,Lisinopril,Abnormal,United Health,34177.61,109
+P00290,Patient_290,77,Female,A-,Cancer,Elective,2025-04-05,2025-04-10,5,Dr. Smith,Hydrochlorothiazide,Normal,Cigna,20546.52,335
+P00291,Patient_291,24,Female,O+,Kidney Disease,Elective,2025-09-09,2025-09-20,11,Dr. Smith,Lisinopril,Abnormal,Medicare,37942.09,229
+P00292,Patient_292,74,Female,A-,Obesity,Elective,2024-01-21,2024-01-23,2,Dr. Martinez,Hydrochlorothiazide,Normal,Blue Cross,22646.16,139
+P00293,Patient_293,53,Female,A+,Cancer,Elective,2024-03-04,2024-03-20,16,Dr. Davis,Levothyroxine,Normal,Blue Cross,38337.38,418
+P00294,Patient_294,62,Male,A+,Cancer,Elective,2024-06-13,2024-06-20,7,Dr. Williams,Metoprolol,Abnormal,United Health,36328.64,212
+P00295,Patient_295,37,Female,O+,Hypertension,Emergency,2024-01-27,2024-02-03,7,Dr. Garcia,Hydrochlorothiazide,Normal,Blue Cross,23992.21,219
+P00296,Patient_296,82,Male,O+,Hypertension,Elective,2024-11-06,2024-11-09,3,Dr. Williams,Hydrochlorothiazide,Normal,Medicaid,10220.2,148
+P00297,Patient_297,25,Male,B-,Cancer,Elective,2024-10-11,2024-10-25,14,Dr. Brown,Atorvastatin,Normal,Cigna,61646.4,222
+P00298,Patient_298,33,Female,A+,Arthritis,Emergency,2025-10-21,2025-10-27,6,Dr. Smith,Metformin,Abnormal,Cigna,13299.85,349
+P00299,Patient_299,31,Male,O-,Kidney Disease,Urgent,2024-10-07,2024-10-15,8,Dr. Jones,Metformin,Critical,Cigna,33213.91,215
+P00300,Patient_300,32,Male,O+,Obesity,Urgent,2024-06-12,2024-06-21,9,Dr. Smith,Atorvastatin,Normal,Aetna,31860.21,501
+P00301,Patient_301,83,Male,A+,Cancer,Elective,2024-08-11,2024-08-14,3,Dr. Smith,Omeprazole,Abnormal,Medicare,24284.97,302
+P00302,Patient_302,49,Female,O+,Heart Disease,Emergency,2024-05-25,2024-06-06,12,Dr. Hernandez,Atorvastatin,Critical,Medicaid,72658.89,108
+P00303,Patient_303,80,Male,A+,Kidney Disease,Elective,2024-01-30,2024-02-06,7,Dr. Miller,Hydrochlorothiazide,Normal,Medicare,48163.78,322
+P00304,Patient_304,68,Male,AB-,Hypertension,Elective,2024-02-14,2024-02-15,1,Dr. Garcia,Hydrochlorothiazide,Normal,Medicaid,11719.15,525
+P00305,Patient_305,42,Male,O+,Heart Disease,Urgent,2025-04-15,2025-04-19,4,Dr. Johnson,Atorvastatin,Abnormal,Medicare,13180.91,502
+P00306,Patient_306,75,Male,A+,Hypertension,Emergency,2024-02-03,2024-02-16,13,Dr. Johnson,Atorvastatin,Abnormal,United Health,48090.99,209
+P00307,Patient_307,80,Male,O-,Hypertension,Emergency,2025-10-14,2025-10-24,10,Dr. Miller,Omeprazole,Abnormal,Blue Cross,24973.21,209
+P00308,Patient_308,79,Male,O+,Kidney Disease,Urgent,2025-03-02,2025-03-14,12,Dr. Smith,Lisinopril,Normal,Blue Cross,32706.77,413
+P00309,Patient_309,39,Female,O+,Hypertension,Elective,2024-08-08,2024-08-10,2,Dr. Johnson,Metoprolol,Normal,United Health,22016.68,306
+P00310,Patient_310,75,Male,A+,Pneumonia,Elective,2025-06-17,2025-06-19,2,Dr. Davis,Losartan,Normal,Medicaid,7937.89,430
+P00311,Patient_311,75,Male,A+,Diabetes,Urgent,2025-11-22,2025-12-01,9,Dr. Garcia,Hydrochlorothiazide,Normal,Aetna,30855.2,515
+P00312,Patient_312,66,Male,A+,Pneumonia,Emergency,2025-01-01,2025-01-17,16,Dr. Johnson,Metoprolol,Normal,Medicaid,21438.49,215
+P00313,Patient_313,69,Male,O+,Diabetes,Elective,2025-07-03,2025-07-16,13,Dr. Miller,Atorvastatin,Abnormal,Blue Cross,26007.72,250
+P00314,Patient_314,59,Female,A+,Flu,Emergency,2025-08-04,2025-08-14,10,Dr. Brown,Omeprazole,Normal,Aetna,23681.33,207
+P00315,Patient_315,32,Female,AB+,Flu,Elective,2024-04-25,2024-04-30,5,Dr. Johnson,Albuterol,Abnormal,Medicare,26850.31,111
+P00316,Patient_316,71,Male,O+,Hypertension,Elective,2024-08-26,2024-09-05,10,Dr. Garcia,Omeprazole,Normal,Aetna,30761.6,540
+P00317,Patient_317,77,Male,A+,Obesity,Elective,2024-11-30,2024-12-06,6,Dr. Martinez,Gabapentin,Normal,Medicaid,26918.45,238
+P00318,Patient_318,25,Male,O+,Obesity,Urgent,2025-03-16,2025-03-25,9,Dr. Martinez,Gabapentin,Normal,United Health,18571.81,540
+P00319,Patient_319,70,Female,A+,Diabetes,Elective,2024-05-27,2024-06-07,11,Dr. Davis,Metoprolol,Normal,Medicare,19583.24,202
+P00320,Patient_320,77,Female,O-,Heart Disease,Emergency,2024-01-09,2024-01-19,10,Dr. Williams,Metformin,Normal,Medicaid,29902.44,348
+P00321,Patient_321,22,Female,B+,Kidney Disease,Emergency,2024-10-14,2024-10-28,14,Dr. Williams,Gabapentin,Critical,Medicare,69388.18,539
+P00322,Patient_322,23,Male,A+,Hypertension,Elective,2025-01-22,2025-02-01,10,Dr. Johnson,Gabapentin,Abnormal,Aetna,27256.87,410
+P00323,Patient_323,64,Female,A-,Kidney Disease,Elective,2024-02-19,2024-03-11,21,Dr. Jones,Lisinopril,Normal,Blue Cross,58134.13,144
+P00324,Patient_324,72,Male,B+,Pneumonia,Emergency,2025-05-31,2025-06-09,9,Dr. Brown,Albuterol,Normal,Medicaid,28595.18,417
+P00325,Patient_325,57,Male,O+,Obesity,Elective,2025-09-29,2025-10-03,4,Dr. Miller,Lisinopril,Critical,United Health,35300.54,507
+P00326,Patient_326,69,Male,O+,Arthritis,Elective,2025-08-09,2025-08-11,2,Dr. Brown,Albuterol,Normal,Aetna,10626.42,240
+P00327,Patient_327,33,Male,O+,Pneumonia,Elective,2025-11-07,2025-11-19,12,Dr. Martinez,Levothyroxine,Normal,Medicaid,30466.14,539
+P00328,Patient_328,30,Female,A+,Pneumonia,Elective,2024-10-04,2024-10-12,8,Dr. Johnson,Losartan,Normal,United Health,14858.96,104
+P00329,Patient_329,47,Female,A+,Diabetes,Elective,2024-10-26,2024-10-30,4,Dr. Garcia,Hydrochlorothiazide,Critical,Medicaid,21953.41,535
+P00330,Patient_330,36,Male,A+,Asthma,Emergency,2025-08-11,2025-08-24,13,Dr. Miller,Gabapentin,Normal,Aetna,33175.49,247
+P00331,Patient_331,34,Female,O+,Pneumonia,Emergency,2025-10-10,2025-10-19,9,Dr. Brown,Hydrochlorothiazide,Normal,Medicaid,31621.45,436
+P00332,Patient_332,80,Female,O+,Hypertension,Elective,2025-09-09,2025-09-13,4,Dr. Garcia,Gabapentin,Critical,Medicare,23777.09,331
+P00333,Patient_333,36,Female,B+,Cancer,Elective,2025-08-29,2025-09-09,11,Dr. Miller,Lisinopril,Normal,Aetna,43949.8,425
+P00334,Patient_334,75,Female,A+,Cancer,Emergency,2024-05-14,2024-05-24,10,Dr. Brown,Losartan,Normal,Medicaid,38291.54,241
+P00335,Patient_335,72,Female,O+,Hypertension,Elective,2025-08-02,2025-08-15,13,Dr. Davis,Lisinopril,Normal,Blue Cross,34884.12,213
+P00336,Patient_336,79,Female,O+,Asthma,Elective,2024-05-26,2024-06-04,9,Dr. Martinez,Lisinopril,Abnormal,Medicaid,23256.76,118
+P00337,Patient_337,40,Female,O+,Asthma,Elective,2025-05-04,2025-05-14,10,Dr. Smith,Albuterol,Normal,Medicare,35911.94,521
+P00338,Patient_338,26,Male,O+,Diabetes,Emergency,2025-04-22,2025-04-30,8,Dr. Miller,Metformin,Critical,United Health,23242.77,548
+P00339,Patient_339,29,Male,A+,Obesity,Elective,2024-06-07,2024-06-08,1,Dr. Martinez,Omeprazole,Abnormal,United Health,17785.45,401
+P00340,Patient_340,18,Female,A+,Kidney Disease,Elective,2025-01-18,2025-01-26,8,Dr. Hernandez,Metoprolol,Normal,United Health,35051.94,336
+P00341,Patient_341,75,Male,O+,Asthma,Elective,2024-06-11,2024-06-20,9,Dr. Jones,Hydrochlorothiazide,Critical,Blue Cross,24308.22,350
+P00342,Patient_342,18,Female,O+,Arthritis,Elective,2025-03-16,2025-03-20,4,Dr. Johnson,Levothyroxine,Normal,Medicare,17578.35,108
+P00343,Patient_343,51,Male,A+,Diabetes,Elective,2024-07-07,2024-07-12,5,Dr. Hernandez,Gabapentin,Normal,Aetna,16701.25,248
+P00344,Patient_344,65,Male,O+,Flu,Elective,2025-02-18,2025-02-25,7,Dr. Garcia,Lisinopril,Normal,United Health,14437.29,121
+P00345,Patient_345,18,Male,O+,Heart Disease,Emergency,2024-12-04,2024-12-12,8,Dr. Miller,Metformin,Normal,Medicare,26421.39,543
+P00346,Patient_346,33,Male,O+,Flu,Elective,2025-08-29,2025-09-02,4,Dr. Johnson,Lisinopril,Normal,Medicaid,10388.88,221
+P00347,Patient_347,78,Female,O+,Diabetes,Elective,2024-06-29,2024-07-01,2,Dr. Johnson,Losartan,Normal,Blue Cross,21282.26,127
+P00348,Patient_348,81,Female,A-,Pneumonia,Elective,2024-10-14,2024-10-16,2,Dr. Hernandez,Albuterol,Normal,Medicare,20593.95,419
+P00349,Patient_349,80,Female,AB+,Kidney Disease,Emergency,2024-07-05,2024-07-18,13,Dr. Hernandez,Levothyroxine,Abnormal,Medicare,77874.12,523
+P00350,Patient_350,39,Female,AB+,Heart Disease,Emergency,2024-05-17,2024-06-01,15,Dr. Smith,Omeprazole,Normal,Aetna,73252.38,350
+P00351,Patient_351,84,Male,O+,Flu,Urgent,2024-05-09,2024-05-13,4,Dr. Brown,Losartan,Critical,Medicare,11141.77,143
+P00352,Patient_352,43,Female,O+,Heart Disease,Elective,2024-07-12,2024-07-25,13,Dr. Miller,Atorvastatin,Normal,Aetna,45720.8,535
+P00353,Patient_353,33,Female,O+,Arthritis,Urgent,2024-11-11,2024-11-24,13,Dr. Martinez,Levothyroxine,Normal,Blue Cross,32295.58,540
+P00354,Patient_354,68,Female,A+,Arthritis,Elective,2024-05-23,2024-06-02,10,Dr. Williams,Lisinopril,Normal,Blue Cross,27184.26,342
+P00355,Patient_355,74,Male,O+,Arthritis,Elective,2024-01-16,2024-01-29,13,Dr. Miller,Losartan,Normal,Medicaid,35963.38,348
+P00356,Patient_356,46,Female,O+,Diabetes,Elective,2024-10-28,2024-11-06,9,Dr. Miller,Omeprazole,Normal,Aetna,33466.19,305
+P00357,Patient_357,64,Female,O+,Kidney Disease,Urgent,2025-02-26,2025-03-09,11,Dr. Miller,Metformin,Abnormal,Aetna,31879.19,141
+P00358,Patient_358,79,Female,O+,Diabetes,Elective,2024-09-01,2024-09-04,3,Dr. Johnson,Metformin,Critical,United Health,30031.89,308
+P00359,Patient_359,33,Female,O+,Cancer,Elective,2024-04-16,2024-05-07,21,Dr. Garcia,Hydrochlorothiazide,Critical,United Health,43064.04,411
+P00360,Patient_360,65,Male,B+,Pneumonia,Emergency,2024-03-28,2024-04-06,9,Dr. Johnson,Omeprazole,Normal,Medicaid,24086.8,516
+P00361,Patient_361,56,Female,B-,Pneumonia,Elective,2024-05-08,2024-05-22,14,Dr. Garcia,Metformin,Abnormal,Blue Cross,21866.41,339
+P00362,Patient_362,50,Female,A+,Arthritis,Elective,2024-12-06,2024-12-11,5,Dr. Hernandez,Losartan,Normal,Cigna,23911.92,547
+P00363,Patient_363,40,Male,A-,Cancer,Emergency,2024-01-04,2024-01-16,12,Dr. Williams,Hydrochlorothiazide,Normal,United Health,61825.84,224
+P00364,Patient_364,27,Female,O+,Asthma,Emergency,2024-11-22,2024-11-25,3,Dr. Johnson,Metformin,Abnormal,Medicare,37703.89,221
+P00365,Patient_365,51,Female,O+,Asthma,Emergency,2025-02-13,2025-02-22,9,Dr. Garcia,Levothyroxine,Abnormal,Blue Cross,31592.24,323
+P00366,Patient_366,69,Male,A+,Arthritis,Emergency,2024-11-01,2024-11-17,16,Dr. Johnson,Albuterol,Normal,Cigna,33845.9,549
+P00367,Patient_367,27,Male,A+,Flu,Emergency,2025-08-29,2025-09-10,12,Dr. Jones,Atorvastatin,Normal,Medicare,44595.28,238
+P00368,Patient_368,36,Male,O+,Diabetes,Elective,2025-12-21,2026-01-03,13,Dr. Johnson,Omeprazole,Normal,Aetna,31735.8,347
+P00369,Patient_369,75,Male,A+,Arthritis,Urgent,2024-08-12,2024-08-16,4,Dr. Williams,Losartan,Abnormal,Blue Cross,13522.87,508
+P00370,Patient_370,18,Male,A+,Obesity,Elective,2024-12-13,2024-12-21,8,Dr. Williams,Gabapentin,Normal,Medicaid,23926.34,307
+P00371,Patient_371,21,Female,A+,Heart Disease,Emergency,2024-11-16,2024-12-02,16,Dr. Garcia,Lisinopril,Critical,Aetna,85891.7,502
+P00372,Patient_372,33,Male,A+,Pneumonia,Emergency,2025-07-12,2025-07-27,15,Dr. Garcia,Losartan,Normal,Aetna,55515.78,230
+P00373,Patient_373,41,Male,A+,Asthma,Elective,2024-06-29,2024-07-04,5,Dr. Hernandez,Metformin,Normal,Medicare,21153.82,313
+P00374,Patient_374,19,Female,A-,Hypertension,Elective,2025-09-09,2025-09-19,10,Dr. Williams,Losartan,Normal,Aetna,23873.75,223
+P00375,Patient_375,49,Female,B+,Asthma,Elective,2025-12-11,2025-12-23,12,Dr. Williams,Gabapentin,Normal,United Health,40944.41,329
+P00376,Patient_376,41,Male,O+,Pneumonia,Elective,2025-01-20,2025-01-28,8,Dr. Smith,Lisinopril,Normal,Blue Cross,23992.37,138
+P00377,Patient_377,29,Male,AB+,Heart Disease,Elective,2025-09-09,2025-09-24,15,Dr. Miller,Hydrochlorothiazide,Abnormal,United Health,32882.72,237
+P00378,Patient_378,67,Male,O+,Pneumonia,Emergency,2024-04-17,2024-04-22,5,Dr. Davis,Metformin,Abnormal,Medicare,20180.86,220
+P00379,Patient_379,52,Female,A+,Hypertension,Elective,2025-06-14,2025-06-21,7,Dr. Johnson,Metoprolol,Critical,Cigna,32064.75,433
+P00380,Patient_380,50,Male,A+,Arthritis,Emergency,2025-02-13,2025-02-17,4,Dr. Brown,Metformin,Abnormal,Medicare,19708.51,229
+P00381,Patient_381,50,Female,O+,Cancer,Urgent,2024-10-22,2024-10-31,9,Dr. Hernandez,Atorvastatin,Abnormal,Blue Cross,25392.38,550
+P00382,Patient_382,78,Female,A+,Hypertension,Elective,2024-06-19,2024-06-27,8,Dr. Miller,Metoprolol,Normal,Aetna,24163.5,315
+P00383,Patient_383,68,Male,B+,Pneumonia,Emergency,2024-11-26,2024-12-11,15,Dr. Davis,Atorvastatin,Abnormal,Medicaid,34067.56,123
+P00384,Patient_384,60,Female,O+,Pneumonia,Emergency,2025-05-07,2025-05-14,7,Dr. Smith,Gabapentin,Normal,Medicare,27749.18,542
+P00385,Patient_385,29,Female,O+,Obesity,Emergency,2024-07-13,2024-07-23,10,Dr. Brown,Omeprazole,Normal,Blue Cross,24064.2,503
+P00386,Patient_386,84,Male,A+,Obesity,Elective,2024-01-12,2024-01-20,8,Dr. Garcia,Lisinopril,Normal,Medicaid,28723.17,537
+P00387,Patient_387,82,Female,A+,Kidney Disease,Emergency,2024-07-13,2024-07-21,8,Dr. Williams,Albuterol,Normal,Aetna,31055.57,529
+P00388,Patient_388,50,Female,O+,Obesity,Elective,2025-05-04,2025-05-09,5,Dr. Jones,Hydrochlorothiazide,Normal,Cigna,10476.52,145
+P00389,Patient_389,57,Female,A+,Diabetes,Emergency,2024-06-30,2024-07-10,10,Dr. Hernandez,Albuterol,Critical,Medicare,28820.73,408
+P00390,Patient_390,60,Female,O+,Cancer,Elective,2025-10-17,2025-11-01,15,Dr. Martinez,Levothyroxine,Normal,Cigna,50452.62,222
+P00391,Patient_391,61,Female,O+,Heart Disease,Elective,2024-11-11,2024-12-01,20,Dr. Williams,Levothyroxine,Normal,Blue Cross,52224.55,529
+P00392,Patient_392,46,Female,O-,Hypertension,Elective,2025-11-24,2025-12-04,10,Dr. Jones,Gabapentin,Normal,Cigna,24472.7,202
+P00393,Patient_393,30,Female,A+,Pneumonia,Elective,2024-01-30,2024-02-02,3,Dr. Davis,Omeprazole,Normal,Cigna,23248.6,241
+P00394,Patient_394,29,Female,O+,Kidney Disease,Emergency,2025-08-18,2025-08-24,6,Dr. Garcia,Levothyroxine,Normal,Blue Cross,41995.13,549
+P00395,Patient_395,63,Female,AB+,Kidney Disease,Emergency,2025-11-08,2025-11-18,10,Dr. Brown,Metformin,Normal,Blue Cross,60706.11,450
+P00396,Patient_396,19,Female,A-,Heart Disease,Elective,2024-04-05,2024-04-17,12,Dr. Davis,Losartan,Normal,Medicare,39725.0,245
+P00397,Patient_397,52,Male,A+,Cancer,Elective,2025-01-15,2025-01-23,8,Dr. Williams,Atorvastatin,Normal,Cigna,41257.16,301
+P00398,Patient_398,25,Male,O+,Hypertension,Elective,2025-03-19,2025-03-23,4,Dr. Williams,Levothyroxine,Abnormal,Medicaid,10844.92,244
+P00399,Patient_399,43,Male,A+,Asthma,Emergency,2024-10-24,2024-11-08,15,Dr. Brown,Gabapentin,Abnormal,Blue Cross,28268.55,520
+P00400,Patient_400,51,Male,A-,Obesity,Emergency,2024-12-26,2025-01-05,10,Dr. Martinez,Atorvastatin,Normal,Aetna,49675.21,121
+P00401,Patient_401,24,Male,A+,Arthritis,Emergency,2025-01-08,2025-01-10,2,Dr. Jones,Metformin,Normal,Cigna,22825.6,237
+P00402,Patient_402,75,Female,O+,Kidney Disease,Urgent,2025-07-07,2025-07-23,16,Dr. Davis,Omeprazole,Normal,Blue Cross,35657.25,408
+P00403,Patient_403,46,Male,O+,Obesity,Emergency,2024-10-29,2024-10-31,2,Dr. Garcia,Lisinopril,Abnormal,Medicaid,12129.18,327
+P00404,Patient_404,53,Female,O+,Obesity,Elective,2025-02-24,2025-03-05,9,Dr. Williams,Albuterol,Normal,Medicare,27081.16,347
+P00405,Patient_405,38,Male,A+,Diabetes,Emergency,2024-09-02,2024-09-19,17,Dr. Davis,Metformin,Normal,Cigna,53401.31,135
+P00406,Patient_406,53,Female,A+,Cancer,Elective,2025-12-20,2026-01-01,12,Dr. Martinez,Hydrochlorothiazide,Abnormal,Blue Cross,44444.86,106
+P00407,Patient_407,27,Female,O+,Arthritis,Emergency,2024-08-24,2024-09-03,10,Dr. Davis,Metoprolol,Normal,Blue Cross,41669.37,245
+P00408,Patient_408,41,Male,B-,Asthma,Urgent,2025-06-17,2025-06-29,12,Dr. Brown,Gabapentin,Normal,Aetna,21811.29,544
+P00409,Patient_409,81,Female,A+,Pneumonia,Urgent,2024-07-03,2024-07-13,10,Dr. Garcia,Albuterol,Normal,Aetna,23889.71,419
+P00410,Patient_410,66,Male,O+,Diabetes,Emergency,2025-04-12,2025-04-20,8,Dr. Smith,Hydrochlorothiazide,Critical,Cigna,54393.85,318
+P00411,Patient_411,53,Female,O-,Obesity,Urgent,2024-12-28,2025-01-03,6,Dr. Brown,Lisinopril,Abnormal,Blue Cross,15893.21,101
+P00412,Patient_412,41,Male,O+,Obesity,Urgent,2024-10-09,2024-10-12,3,Dr. Davis,Hydrochlorothiazide,Abnormal,Cigna,13275.93,425
+P00413,Patient_413,40,Female,O+,Flu,Elective,2025-07-06,2025-07-16,10,Dr. Smith,Omeprazole,Normal,Blue Cross,23429.85,527
+P00414,Patient_414,79,Male,O-,Arthritis,Elective,2024-12-01,2024-12-04,3,Dr. Williams,Metoprolol,Normal,Aetna,25448.32,307
+P00415,Patient_415,54,Female,A+,Arthritis,Emergency,2024-06-10,2024-06-15,5,Dr. Smith,Atorvastatin,Critical,Medicaid,14959.71,344
+P00416,Patient_416,29,Female,O+,Flu,Elective,2024-06-08,2024-06-19,11,Dr. Martinez,Albuterol,Critical,United Health,42688.11,542
+P00417,Patient_417,72,Male,O-,Arthritis,Emergency,2025-04-18,2025-04-27,9,Dr. Johnson,Metoprolol,Normal,United Health,36990.58,329
+P00418,Patient_418,30,Male,A+,Obesity,Emergency,2025-08-23,2025-08-29,6,Dr. Martinez,Losartan,Abnormal,Blue Cross,17629.44,531
+P00419,Patient_419,40,Male,O+,Kidney Disease,Urgent,2024-11-17,2024-11-29,12,Dr. Brown,Metformin,Normal,Aetna,49468.55,344
+P00420,Patient_420,47,Male,O+,Hypertension,Emergency,2024-01-12,2024-01-17,5,Dr. Johnson,Losartan,Normal,Medicare,25293.58,243
+P00421,Patient_421,34,Female,O+,Obesity,Elective,2025-02-27,2025-03-05,6,Dr. Brown,Metformin,Abnormal,Medicare,19701.07,536
+P00422,Patient_422,79,Male,O+,Diabetes,Elective,2024-03-13,2024-03-24,11,Dr. Hernandez,Omeprazole,Normal,United Health,35550.7,419
+P00423,Patient_423,30,Male,O+,Cancer,Urgent,2025-08-10,2025-08-27,17,Dr. Garcia,Metoprolol,Critical,Medicaid,67056.92,206
+P00424,Patient_424,76,Male,O+,Flu,Urgent,2024-07-19,2024-07-22,3,Dr. Miller,Lisinopril,Normal,United Health,10591.62,425
+P00425,Patient_425,36,Female,A+,Asthma,Emergency,2025-06-05,2025-06-20,15,Dr. Williams,Levothyroxine,Normal,Blue Cross,35971.85,331
+P00426,Patient_426,66,Male,O+,Pneumonia,Emergency,2025-05-19,2025-06-05,17,Dr. Williams,Hydrochlorothiazide,Critical,Medicaid,36374.2,409
+P00427,Patient_427,29,Male,A+,Asthma,Elective,2025-11-18,2025-11-26,8,Dr. Hernandez,Levothyroxine,Critical,Medicare,25176.88,220
+P00428,Patient_428,78,Male,A-,Obesity,Emergency,2024-02-08,2024-02-19,11,Dr. Davis,Metoprolol,Normal,Aetna,32552.72,510
+P00429,Patient_429,36,Male,B+,Diabetes,Emergency,2024-02-29,2024-03-05,5,Dr. Jones,Losartan,Normal,Aetna,14956.43,137
+P00430,Patient_430,26,Female,B+,Obesity,Elective,2025-07-31,2025-08-09,9,Dr. Brown,Levothyroxine,Abnormal,Blue Cross,29837.29,427
+P00431,Patient_431,45,Male,B+,Cancer,Elective,2024-11-16,2024-12-03,17,Dr. Miller,Gabapentin,Normal,United Health,47905.59,113
+P00432,Patient_432,69,Male,O-,Kidney Disease,Elective,2025-03-10,2025-03-23,13,Dr. Miller,Levothyroxine,Critical,Blue Cross,29274.53,441
+P00433,Patient_433,33,Female,O+,Pneumonia,Emergency,2025-09-27,2025-10-04,7,Dr. Martinez,Metformin,Critical,Aetna,39991.83,402
+P00434,Patient_434,29,Female,O+,Cancer,Elective,2025-11-06,2025-11-18,12,Dr. Martinez,Gabapentin,Normal,Medicare,51313.36,550
+P00435,Patient_435,42,Male,A+,Flu,Emergency,2025-02-11,2025-02-26,15,Dr. Jones,Albuterol,Normal,Aetna,34258.28,321
+P00436,Patient_436,69,Female,O+,Flu,Emergency,2025-01-20,2025-01-24,4,Dr. Davis,Levothyroxine,Normal,Medicaid,17273.87,233
+P00437,Patient_437,70,Female,O+,Obesity,Elective,2025-11-01,2025-11-04,3,Dr. Hernandez,Gabapentin,Critical,Cigna,24660.8,224
+P00438,Patient_438,40,Male,O+,Diabetes,Elective,2025-07-22,2025-07-28,6,Dr. Smith,Metoprolol,Normal,Aetna,17088.98,244
+P00439,Patient_439,33,Female,A+,Cancer,Elective,2024-03-18,2024-03-27,9,Dr. Martinez,Hydrochlorothiazide,Normal,Aetna,25768.31,342
+P00440,Patient_440,74,Female,A+,Heart Disease,Emergency,2024-07-12,2024-07-21,9,Dr. Davis,Albuterol,Normal,Cigna,59658.68,134
+P00441,Patient_441,56,Male,A+,Diabetes,Elective,2024-10-11,2024-10-25,14,Dr. Garcia,Lisinopril,Normal,Medicaid,21819.29,209
+P00442,Patient_442,70,Male,A+,Kidney Disease,Elective,2025-06-10,2025-06-20,10,Dr. Williams,Lisinopril,Normal,United Health,22835.33,102
+P00443,Patient_443,59,Male,A-,Flu,Elective,2025-06-07,2025-06-08,1,Dr. Williams,Omeprazole,Normal,Aetna,6390.64,330
+P00444,Patient_444,75,Female,O+,Obesity,Elective,2025-09-04,2025-09-13,9,Dr. Davis,Levothyroxine,Critical,Blue Cross,22076.54,322
+P00445,Patient_445,56,Female,B+,Arthritis,Urgent,2024-06-04,2024-06-10,6,Dr. Jones,Hydrochlorothiazide,Critical,Aetna,15845.37,546
+P00446,Patient_446,31,Female,A+,Flu,Elective,2024-12-05,2024-12-13,8,Dr. Hernandez,Atorvastatin,Abnormal,Blue Cross,33343.47,211
+P00447,Patient_447,22,Male,A+,Pneumonia,Elective,2024-05-04,2024-05-07,3,Dr. Miller,Gabapentin,Normal,Medicaid,12310.37,543
+P00448,Patient_448,52,Female,A+,Hypertension,Urgent,2024-10-06,2024-10-14,8,Dr. Jones,Albuterol,Normal,Aetna,17557.42,217
+P00449,Patient_449,35,Female,A+,Arthritis,Elective,2025-09-13,2025-09-15,2,Dr. Davis,Metoprolol,Abnormal,Medicaid,11572.01,336
+P00450,Patient_450,26,Male,A+,Obesity,Elective,2025-10-19,2025-10-31,12,Dr. Hernandez,Levothyroxine,Normal,Medicaid,41033.83,313
+P00451,Patient_451,75,Male,A+,Heart Disease,Elective,2025-12-28,2026-01-08,11,Dr. Hernandez,Metoprolol,Critical,United Health,53821.87,407
+P00452,Patient_452,34,Female,O+,Arthritis,Elective,2025-11-04,2025-11-07,3,Dr. Brown,Atorvastatin,Abnormal,Aetna,15559.45,416
+P00453,Patient_453,24,Male,O-,Pneumonia,Emergency,2024-05-07,2024-05-21,14,Dr. Johnson,Omeprazole,Normal,Blue Cross,42897.89,333
+P00454,Patient_454,63,Female,A-,Diabetes,Elective,2024-11-09,2024-11-10,1,Dr. Williams,Atorvastatin,Critical,Blue Cross,16324.23,345
+P00455,Patient_455,30,Male,B+,Heart Disease,Urgent,2024-11-27,2024-12-14,17,Dr. Davis,Metformin,Critical,Aetna,46776.08,101
+P00456,Patient_456,57,Male,O+,Flu,Urgent,2024-05-29,2024-06-11,13,Dr. Miller,Losartan,Normal,Cigna,21841.03,111
+P00457,Patient_457,59,Male,A+,Heart Disease,Emergency,2025-03-29,2025-04-07,9,Dr. Johnson,Albuterol,Normal,United Health,38455.03,506
+P00458,Patient_458,26,Male,A+,Cancer,Elective,2024-02-05,2024-02-23,18,Dr. Garcia,Losartan,Normal,United Health,44403.63,420
+P00459,Patient_459,67,Female,O+,Pneumonia,Emergency,2025-11-15,2025-11-28,13,Dr. Martinez,Atorvastatin,Normal,United Health,35354.66,435
+P00460,Patient_460,44,Male,A+,Arthritis,Urgent,2025-02-23,2025-02-25,2,Dr. Brown,Omeprazole,Normal,Blue Cross,13747.08,344
+P00461,Patient_461,83,Female,O+,Cancer,Urgent,2024-01-22,2024-01-30,8,Dr. Martinez,Omeprazole,Normal,Medicaid,32111.09,337
+P00462,Patient_462,22,Female,O+,Heart Disease,Elective,2024-07-24,2024-08-08,15,Dr. Johnson,Lisinopril,Critical,Cigna,50034.61,541
+P00463,Patient_463,46,Female,A-,Cancer,Elective,2025-09-30,2025-10-10,10,Dr. Johnson,Levothyroxine,Normal,United Health,34442.34,426
+P00464,Patient_464,54,Male,A+,Asthma,Elective,2024-12-21,2024-12-29,8,Dr. Martinez,Lisinopril,Normal,Blue Cross,21350.99,112
+P00465,Patient_465,55,Female,O+,Pneumonia,Elective,2025-03-15,2025-03-17,2,Dr. Miller,Albuterol,Abnormal,Blue Cross,26188.81,230
+P00466,Patient_466,25,Female,A+,Kidney Disease,Emergency,2025-12-29,2026-01-09,11,Dr. Miller,Albuterol,Normal,Medicaid,44541.06,528
+P00467,Patient_467,82,Male,A+,Diabetes,Elective,2024-04-05,2024-04-11,6,Dr. Smith,Albuterol,Abnormal,Aetna,25061.69,227
+P00468,Patient_468,34,Male,O+,Heart Disease,Elective,2024-06-12,2024-06-29,17,Dr. Garcia,Metoprolol,Normal,Aetna,36587.3,142
+P00469,Patient_469,62,Female,AB-,Pneumonia,Elective,2024-05-27,2024-06-10,14,Dr. Miller,Lisinopril,Normal,United Health,18756.9,119
+P00470,Patient_470,21,Female,A+,Kidney Disease,Elective,2025-06-13,2025-06-28,15,Dr. Garcia,Metoprolol,Normal,United Health,33516.27,205
+P00471,Patient_471,53,Male,O+,Kidney Disease,Urgent,2024-10-20,2024-10-31,11,Dr. Garcia,Losartan,Abnormal,Cigna,33131.54,505
+P00472,Patient_472,48,Female,A-,Obesity,Emergency,2024-07-13,2024-07-16,3,Dr. Johnson,Levothyroxine,Normal,Medicaid,14809.38,241
+P00473,Patient_473,36,Female,O+,Cancer,Elective,2025-10-24,2025-11-10,17,Dr. Garcia,Atorvastatin,Abnormal,United Health,32780.16,527
+P00474,Patient_474,78,Female,O+,Kidney Disease,Elective,2025-04-24,2025-05-08,14,Dr. Brown,Gabapentin,Normal,Medicaid,48528.89,528
+P00475,Patient_475,71,Female,O+,Asthma,Elective,2024-05-02,2024-05-13,11,Dr. Martinez,Lisinopril,Normal,Blue Cross,11739.64,326
+P00476,Patient_476,56,Female,B-,Pneumonia,Elective,2025-02-03,2025-02-13,10,Dr. Smith,Gabapentin,Normal,United Health,21678.97,427
+P00477,Patient_477,36,Male,O-,Hypertension,Emergency,2025-11-29,2025-12-06,7,Dr. Davis,Omeprazole,Critical,Blue Cross,27866.95,449
+P00478,Patient_478,56,Male,A+,Hypertension,Emergency,2025-03-27,2025-04-14,18,Dr. Jones,Lisinopril,Critical,Medicare,39729.21,142
+P00479,Patient_479,84,Male,O+,Heart Disease,Elective,2025-10-22,2025-10-26,4,Dr. Smith,Losartan,Normal,Medicaid,28007.56,321
+P00480,Patient_480,62,Female,A+,Flu,Elective,2024-04-13,2024-04-25,12,Dr. Brown,Lisinopril,Normal,Medicare,27022.49,401
+P00481,Patient_481,30,Female,A+,Cancer,Emergency,2025-04-06,2025-04-11,5,Dr. Smith,Metoprolol,Normal,United Health,26513.26,528
+P00482,Patient_482,75,Male,A+,Flu,Elective,2025-12-18,2025-12-29,11,Dr. Garcia,Levothyroxine,Normal,Blue Cross,32416.41,548
+P00483,Patient_483,37,Female,O-,Kidney Disease,Elective,2025-12-10,2025-12-22,12,Dr. Johnson,Atorvastatin,Normal,United Health,47544.35,215
+P00484,Patient_484,78,Female,O-,Pneumonia,Elective,2025-01-30,2025-02-12,13,Dr. Jones,Hydrochlorothiazide,Critical,Medicare,32018.07,217
+P00485,Patient_485,56,Female,A+,Heart Disease,Elective,2024-12-02,2024-12-23,21,Dr. Miller,Atorvastatin,Critical,United Health,49746.98,526
+P00486,Patient_486,18,Male,A+,Arthritis,Emergency,2025-08-21,2025-08-24,3,Dr. Johnson,Atorvastatin,Normal,Cigna,32984.44,520
+P00487,Patient_487,20,Female,O+,Kidney Disease,Emergency,2024-05-21,2024-06-01,11,Dr. Garcia,Omeprazole,Normal,Aetna,45224.28,225
+P00488,Patient_488,79,Male,B+,Cancer,Elective,2024-11-12,2024-11-23,11,Dr. Garcia,Losartan,Abnormal,Medicare,38591.83,413
+P00489,Patient_489,80,Male,A+,Hypertension,Elective,2025-12-11,2025-12-17,6,Dr. Jones,Gabapentin,Abnormal,United Health,18576.67,133
+P00490,Patient_490,42,Male,O+,Obesity,Elective,2025-07-11,2025-07-19,8,Dr. Jones,Losartan,Normal,Blue Cross,12432.31,225
+P00491,Patient_491,73,Male,AB-,Pneumonia,Elective,2025-06-10,2025-06-17,7,Dr. Williams,Hydrochlorothiazide,Normal,United Health,27265.57,408
+P00492,Patient_492,50,Male,O-,Diabetes,Elective,2025-07-09,2025-07-23,14,Dr. Hernandez,Omeprazole,Normal,Blue Cross,28460.6,405
+P00493,Patient_493,55,Female,A+,Flu,Urgent,2025-02-04,2025-02-15,11,Dr. Hernandez,Levothyroxine,Normal,Aetna,18390.41,406
+P00494,Patient_494,23,Male,B+,Heart Disease,Elective,2025-11-11,2025-11-25,14,Dr. Johnson,Atorvastatin,Normal,United Health,46470.48,323
+P00495,Patient_495,75,Female,AB-,Flu,Elective,2024-11-05,2024-11-08,3,Dr. Miller,Metoprolol,Normal,Aetna,23530.65,330
+P00496,Patient_496,61,Male,O+,Pneumonia,Elective,2025-05-09,2025-05-13,4,Dr. Smith,Omeprazole,Abnormal,Medicare,22141.62,414
+P00497,Patient_497,62,Female,AB-,Flu,Emergency,2025-07-09,2025-07-15,6,Dr. Garcia,Albuterol,Normal,Blue Cross,16463.16,523
+P00498,Patient_498,49,Female,O+,Pneumonia,Elective,2025-09-01,2025-09-12,11,Dr. Garcia,Lisinopril,Normal,Cigna,29375.57,311
+P00499,Patient_499,62,Male,A+,Flu,Emergency,2024-04-18,2024-04-27,9,Dr. Williams,Losartan,Normal,Medicare,31878.4,231
+P00500,Patient_500,78,Male,O+,Asthma,Urgent,2025-01-06,2025-01-15,9,Dr. Johnson,Omeprazole,Abnormal,Blue Cross,32969.14,306
+P00501,Patient_501,64,Male,B+,Arthritis,Elective,2025-09-07,2025-09-20,13,Dr. Johnson,Albuterol,Abnormal,Aetna,33646.69,511
+P00502,Patient_502,38,Female,A+,Kidney Disease,Elective,2024-07-24,2024-08-01,8,Dr. Martinez,Gabapentin,Normal,Medicaid,20620.35,113
+P00503,Patient_503,53,Female,O+,Kidney Disease,Elective,2024-02-12,2024-02-28,16,Dr. Jones,Hydrochlorothiazide,Normal,United Health,44292.06,312
+P00504,Patient_504,36,Male,A+,Cancer,Emergency,2024-09-01,2024-09-13,12,Dr. Miller,Hydrochlorothiazide,Critical,Aetna,66321.09,402
+P00505,Patient_505,37,Female,A+,Diabetes,Emergency,2024-10-13,2024-10-23,10,Dr. Jones,Atorvastatin,Normal,Blue Cross,26324.02,435
+P00506,Patient_506,74,Male,O+,Diabetes,Elective,2024-12-20,2024-12-26,6,Dr. Miller,Atorvastatin,Normal,Blue Cross,17775.94,436
+P00507,Patient_507,35,Male,B+,Cancer,Emergency,2025-04-20,2025-04-25,5,Dr. Brown,Omeprazole,Normal,Blue Cross,32057.3,117
+P00508,Patient_508,64,Female,O+,Obesity,Elective,2024-03-23,2024-03-26,3,Dr. Davis,Omeprazole,Normal,Blue Cross,19978.3,528
+P00509,Patient_509,66,Male,A+,Kidney Disease,Urgent,2024-04-19,2024-05-05,16,Dr. Hernandez,Levothyroxine,Normal,United Health,35517.54,228
+P00510,Patient_510,31,Female,O+,Obesity,Urgent,2024-07-08,2024-07-11,3,Dr. Hernandez,Lisinopril,Critical,Medicare,24037.68,522
+P00511,Patient_511,32,Male,A+,Pneumonia,Elective,2024-09-07,2024-09-13,6,Dr. Miller,Metformin,Abnormal,Cigna,31982.87,138
+P00512,Patient_512,48,Female,A-,Pneumonia,Emergency,2025-12-24,2026-01-09,16,Dr. Hernandez,Gabapentin,Normal,Medicaid,48390.97,407
+P00513,Patient_513,18,Male,O-,Hypertension,Urgent,2024-10-17,2024-10-25,8,Dr. Jones,Atorvastatin,Critical,United Health,40778.42,515
+P00514,Patient_514,71,Male,O+,Flu,Urgent,2025-10-06,2025-10-13,7,Dr. Garcia,Metformin,Normal,Blue Cross,31900.01,232
+P00515,Patient_515,20,Female,B-,Diabetes,Emergency,2024-07-19,2024-07-31,12,Dr. Jones,Metformin,Normal,United Health,15213.67,411
+P00516,Patient_516,33,Male,A+,Hypertension,Elective,2024-11-21,2024-11-22,1,Dr. Miller,Lisinopril,Normal,Aetna,18269.83,224
+P00517,Patient_517,74,Female,O+,Arthritis,Emergency,2025-05-25,2025-06-05,11,Dr. Johnson,Metoprolol,Abnormal,Cigna,32614.18,303
+P00518,Patient_518,29,Female,AB-,Cancer,Elective,2025-02-12,2025-02-21,9,Dr. Jones,Metoprolol,Normal,Blue Cross,52878.65,230
+P00519,Patient_519,33,Female,O+,Cancer,Urgent,2025-08-29,2025-09-08,10,Dr. Hernandez,Atorvastatin,Normal,Medicaid,35441.4,406
+P00520,Patient_520,41,Female,O+,Pneumonia,Emergency,2025-05-22,2025-06-03,12,Dr. Williams,Albuterol,Abnormal,Blue Cross,43369.11,302
+P00521,Patient_521,45,Female,A+,Kidney Disease,Urgent,2025-08-23,2025-09-01,9,Dr. Martinez,Lisinopril,Abnormal,Cigna,35632.72,414
+P00522,Patient_522,25,Female,A+,Obesity,Elective,2024-03-12,2024-03-21,9,Dr. Garcia,Lisinopril,Abnormal,Medicaid,27181.3,441
+P00523,Patient_523,53,Female,O+,Diabetes,Urgent,2024-09-03,2024-09-14,11,Dr. Hernandez,Losartan,Normal,Cigna,22359.48,318
+P00524,Patient_524,25,Female,A+,Hypertension,Elective,2025-10-02,2025-10-13,11,Dr. Williams,Metformin,Normal,Medicaid,23548.49,244
+P00525,Patient_525,75,Male,A+,Obesity,Elective,2025-12-24,2026-01-03,10,Dr. Miller,Losartan,Normal,Medicare,32916.91,131
+P00526,Patient_526,77,Male,O-,Hypertension,Emergency,2025-08-30,2025-09-06,7,Dr. Brown,Metformin,Normal,Medicare,15195.54,113
+P00527,Patient_527,67,Female,O+,Flu,Emergency,2025-08-09,2025-08-12,3,Dr. Williams,Metoprolol,Critical,United Health,37987.09,126
+P00528,Patient_528,45,Male,O+,Arthritis,Emergency,2025-07-19,2025-07-21,2,Dr. Davis,Atorvastatin,Normal,United Health,9369.94,144
+P00529,Patient_529,58,Female,O+,Arthritis,Urgent,2024-12-09,2024-12-13,4,Dr. Brown,Gabapentin,Normal,Medicaid,21155.97,512
+P00530,Patient_530,81,Male,O+,Obesity,Elective,2024-02-23,2024-02-28,5,Dr. Smith,Metoprolol,Abnormal,Blue Cross,17327.02,118
+P00531,Patient_531,44,Male,A+,Obesity,Urgent,2025-12-30,2026-01-08,9,Dr. Garcia,Lisinopril,Normal,Aetna,22004.37,309
+P00532,Patient_532,80,Female,A-,Obesity,Urgent,2025-06-11,2025-06-22,11,Dr. Hernandez,Gabapentin,Normal,Aetna,25870.54,149
+P00533,Patient_533,34,Female,A+,Hypertension,Emergency,2025-09-02,2025-09-06,4,Dr. Smith,Omeprazole,Abnormal,Blue Cross,22614.62,421
+P00534,Patient_534,50,Male,A-,Flu,Elective,2025-06-15,2025-06-18,3,Dr. Jones,Gabapentin,Abnormal,Blue Cross,10914.29,148
+P00535,Patient_535,46,Female,O+,Asthma,Emergency,2025-07-11,2025-07-19,8,Dr. Miller,Gabapentin,Abnormal,Medicare,17908.62,249
+P00536,Patient_536,30,Female,A-,Obesity,Emergency,2024-07-11,2024-07-15,4,Dr. Garcia,Metoprolol,Normal,Aetna,27101.52,340
+P00537,Patient_537,63,Male,B+,Kidney Disease,Emergency,2024-02-27,2024-03-06,8,Dr. Johnson,Lisinopril,Normal,Medicaid,43627.54,343
+P00538,Patient_538,52,Female,A-,Diabetes,Elective,2025-03-12,2025-03-26,14,Dr. Brown,Gabapentin,Abnormal,Cigna,37214.94,524
+P00539,Patient_539,23,Male,A+,Diabetes,Emergency,2024-04-20,2024-04-24,4,Dr. Johnson,Metoprolol,Normal,United Health,26430.9,434
+P00540,Patient_540,64,Male,B+,Hypertension,Emergency,2024-05-08,2024-05-13,5,Dr. Smith,Metoprolol,Normal,Cigna,25694.94,308
+P00541,Patient_541,42,Female,A+,Obesity,Emergency,2025-12-06,2025-12-24,18,Dr. Williams,Gabapentin,Abnormal,Medicare,45459.38,244
+P00542,Patient_542,83,Male,A+,Pneumonia,Emergency,2024-11-21,2024-12-04,13,Dr. Williams,Metformin,Normal,Aetna,19093.74,133
+P00543,Patient_543,27,Female,A+,Cancer,Urgent,2024-01-08,2024-01-26,18,Dr. Miller,Lisinopril,Abnormal,Blue Cross,40191.91,323
+P00544,Patient_544,73,Female,A-,Asthma,Elective,2024-01-29,2024-01-30,1,Dr. Smith,Hydrochlorothiazide,Normal,Aetna,25490.25,213
+P00545,Patient_545,47,Male,O+,Kidney Disease,Urgent,2024-04-21,2024-05-06,15,Dr. Martinez,Gabapentin,Normal,Medicaid,52399.51,149
+P00546,Patient_546,22,Female,A+,Flu,Elective,2025-11-03,2025-11-11,8,Dr. Garcia,Losartan,Normal,Medicare,21627.08,514
+P00547,Patient_547,50,Female,A+,Pneumonia,Emergency,2024-05-10,2024-05-18,8,Dr. Brown,Losartan,Abnormal,Blue Cross,30407.96,314
+P00548,Patient_548,82,Male,O+,Arthritis,Elective,2024-07-06,2024-07-13,7,Dr. Williams,Omeprazole,Normal,Cigna,26413.56,316
+P00549,Patient_549,35,Female,A+,Pneumonia,Emergency,2025-11-05,2025-11-09,4,Dr. Williams,Lisinopril,Normal,Medicaid,22648.14,249
+P00550,Patient_550,66,Female,O+,Hypertension,Emergency,2025-12-09,2025-12-12,3,Dr. Johnson,Metoprolol,Abnormal,Cigna,12738.57,438
+P00551,Patient_551,28,Female,AB+,Asthma,Emergency,2025-04-19,2025-04-28,9,Dr. Johnson,Levothyroxine,Abnormal,United Health,16930.08,539
+P00552,Patient_552,43,Female,B+,Heart Disease,Emergency,2024-12-29,2025-01-12,14,Dr. Hernandez,Atorvastatin,Critical,Medicare,72020.7,426
+P00553,Patient_553,80,Male,O+,Heart Disease,Emergency,2024-07-22,2024-07-25,3,Dr. Jones,Albuterol,Normal,Medicaid,53016.03,326
+P00554,Patient_554,76,Female,A+,Obesity,Elective,2024-07-30,2024-08-05,6,Dr. Martinez,Levothyroxine,Normal,Medicaid,22290.34,401
+P00555,Patient_555,44,Female,O+,Obesity,Elective,2025-09-12,2025-09-23,11,Dr. Johnson,Lisinopril,Critical,Cigna,20741.96,132
+P00556,Patient_556,66,Female,A-,Hypertension,Emergency,2024-10-02,2024-10-05,3,Dr. Johnson,Lisinopril,Abnormal,Blue Cross,16111.82,515
+P00557,Patient_557,50,Female,O+,Flu,Emergency,2024-03-13,2024-03-21,8,Dr. Garcia,Gabapentin,Normal,United Health,37091.89,421
+P00558,Patient_558,18,Female,A+,Obesity,Elective,2025-11-09,2025-11-16,7,Dr. Hernandez,Gabapentin,Normal,Cigna,31433.54,118
+P00559,Patient_559,38,Female,B-,Cancer,Emergency,2024-08-30,2024-09-09,10,Dr. Johnson,Levothyroxine,Abnormal,Medicaid,49224.36,230
+P00560,Patient_560,72,Female,O+,Asthma,Emergency,2024-04-11,2024-04-16,5,Dr. Brown,Metoprolol,Normal,Medicare,27065.62,413
+P00561,Patient_561,23,Female,A+,Hypertension,Urgent,2025-11-15,2025-11-29,14,Dr. Garcia,Omeprazole,Abnormal,Medicaid,25678.67,524
+P00562,Patient_562,22,Female,A-,Diabetes,Emergency,2024-06-19,2024-07-02,13,Dr. Jones,Gabapentin,Normal,Aetna,42883.31,130
+P00563,Patient_563,20,Female,O+,Arthritis,Emergency,2025-10-14,2025-10-26,12,Dr. Smith,Albuterol,Normal,Medicare,43787.08,402
+P00564,Patient_564,70,Female,O+,Hypertension,Elective,2024-07-06,2024-07-08,2,Dr. Garcia,Albuterol,Abnormal,Medicare,12764.71,219
+P00565,Patient_565,40,Male,A+,Hypertension,Emergency,2025-03-16,2025-03-24,8,Dr. Smith,Omeprazole,Normal,Medicaid,33498.46,447
+P00566,Patient_566,70,Male,O+,Heart Disease,Elective,2024-03-26,2024-04-06,11,Dr. Williams,Metformin,Normal,Blue Cross,34012.35,144
+P00567,Patient_567,54,Male,O-,Kidney Disease,Elective,2025-04-20,2025-05-06,16,Dr. Hernandez,Metformin,Normal,Medicare,23959.96,447
+P00568,Patient_568,34,Female,O+,Flu,Emergency,2024-02-21,2024-03-08,16,Dr. Jones,Lisinopril,Normal,Aetna,28188.46,525
+P00569,Patient_569,18,Female,A+,Kidney Disease,Elective,2024-04-20,2024-04-29,9,Dr. Hernandez,Gabapentin,Abnormal,Cigna,21562.46,350
+P00570,Patient_570,68,Female,O+,Cancer,Elective,2024-02-12,2024-02-19,7,Dr. Jones,Losartan,Abnormal,Blue Cross,31400.36,114
+P00571,Patient_571,62,Male,A+,Diabetes,Emergency,2024-07-29,2024-08-14,16,Dr. Hernandez,Levothyroxine,Abnormal,Blue Cross,32410.79,106
+P00572,Patient_572,21,Female,O-,Heart Disease,Elective,2024-07-18,2024-07-22,4,Dr. Garcia,Hydrochlorothiazide,Normal,Blue Cross,30060.59,112
+P00573,Patient_573,79,Male,B+,Diabetes,Emergency,2025-09-18,2025-09-24,6,Dr. Hernandez,Omeprazole,Normal,Medicare,30153.33,120
+P00574,Patient_574,82,Male,A+,Cancer,Elective,2024-01-26,2024-02-14,19,Dr. Davis,Lisinopril,Normal,Blue Cross,44911.75,423
+P00575,Patient_575,49,Female,O+,Kidney Disease,Emergency,2024-10-25,2024-11-09,15,Dr. Jones,Losartan,Critical,Medicaid,49570.21,530
+P00576,Patient_576,51,Female,A+,Hypertension,Elective,2024-03-17,2024-03-31,14,Dr. Smith,Gabapentin,Abnormal,Blue Cross,30556.5,230
+P00577,Patient_577,56,Male,O-,Obesity,Emergency,2024-05-16,2024-05-29,13,Dr. Jones,Losartan,Abnormal,Aetna,30746.91,538
+P00578,Patient_578,43,Male,O-,Obesity,Elective,2024-01-20,2024-02-02,13,Dr. Williams,Losartan,Normal,United Health,23656.96,130
+P00579,Patient_579,51,Male,O+,Pneumonia,Emergency,2025-03-15,2025-03-18,3,Dr. Brown,Omeprazole,Normal,Aetna,33341.42,441
+P00580,Patient_580,71,Male,A+,Arthritis,Elective,2024-07-29,2024-07-31,2,Dr. Davis,Lisinopril,Normal,Medicare,22906.85,430
+P00581,Patient_581,20,Female,O+,Flu,Elective,2025-07-04,2025-07-10,6,Dr. Miller,Metoprolol,Normal,Blue Cross,30781.9,136
+P00582,Patient_582,67,Male,A+,Cancer,Elective,2025-03-10,2025-03-22,12,Dr. Jones,Albuterol,Normal,Blue Cross,46868.24,449
+P00583,Patient_583,29,Female,A+,Arthritis,Elective,2024-07-25,2024-08-07,13,Dr. Johnson,Levothyroxine,Critical,Medicaid,30812.79,134
+P00584,Patient_584,82,Female,O+,Flu,Elective,2025-03-14,2025-03-21,7,Dr. Garcia,Lisinopril,Normal,Cigna,25699.37,516
+P00585,Patient_585,71,Male,A+,Arthritis,Elective,2025-10-27,2025-11-09,13,Dr. Garcia,Hydrochlorothiazide,Normal,Blue Cross,24168.25,324
+P00586,Patient_586,22,Male,A-,Kidney Disease,Urgent,2024-02-11,2024-02-26,15,Dr. Hernandez,Losartan,Normal,Aetna,52125.89,414
+P00587,Patient_587,74,Male,O-,Flu,Emergency,2025-02-14,2025-02-21,7,Dr. Hernandez,Metoprolol,Critical,Medicare,19579.05,126
+P00588,Patient_588,34,Male,A+,Kidney Disease,Elective,2025-06-06,2025-06-26,20,Dr. Garcia,Omeprazole,Normal,United Health,76112.13,108
+P00589,Patient_589,64,Male,A+,Hypertension,Elective,2025-09-01,2025-09-09,8,Dr. Martinez,Atorvastatin,Abnormal,Blue Cross,14845.1,414
+P00590,Patient_590,40,Female,O+,Heart Disease,Urgent,2025-03-02,2025-03-20,18,Dr. Davis,Levothyroxine,Critical,United Health,77186.59,231
+P00591,Patient_591,31,Male,A+,Kidney Disease,Urgent,2024-10-01,2024-10-13,12,Dr. Davis,Levothyroxine,Normal,Blue Cross,55203.4,102
+P00592,Patient_592,83,Female,O+,Obesity,Elective,2025-03-23,2025-03-25,2,Dr. Smith,Albuterol,Abnormal,Medicare,17192.84,448
+P00593,Patient_593,68,Male,O-,Arthritis,Emergency,2025-01-03,2025-01-07,4,Dr. Jones,Atorvastatin,Normal,Cigna,29725.58,104
+P00594,Patient_594,55,Female,O+,Pneumonia,Elective,2024-08-07,2024-08-12,5,Dr. Miller,Gabapentin,Normal,Aetna,23619.56,201
+P00595,Patient_595,81,Female,O+,Asthma,Elective,2025-07-30,2025-08-13,14,Dr. Garcia,Atorvastatin,Abnormal,Medicare,35352.93,320
+P00596,Patient_596,55,Female,A+,Flu,Elective,2024-08-19,2024-08-28,9,Dr. Jones,Losartan,Abnormal,United Health,20553.12,214
+P00597,Patient_597,67,Female,A+,Cancer,Elective,2024-11-23,2024-12-04,11,Dr. Davis,Losartan,Normal,Blue Cross,52138.27,540
+P00598,Patient_598,47,Female,O+,Pneumonia,Elective,2025-03-18,2025-04-01,14,Dr. Williams,Losartan,Normal,United Health,28980.25,425
+P00599,Patient_599,68,Female,O+,Obesity,Elective,2024-02-21,2024-03-05,13,Dr. Garcia,Losartan,Normal,Aetna,38911.98,225
+P00600,Patient_600,80,Female,AB+,Kidney Disease,Urgent,2025-01-10,2025-01-21,11,Dr. Jones,Lisinopril,Normal,Medicare,35669.03,303
+P00601,Patient_601,69,Female,A+,Heart Disease,Elective,2024-09-19,2024-09-29,10,Dr. Davis,Levothyroxine,Normal,United Health,36097.69,105
+P00602,Patient_602,55,Male,A+,Hypertension,Emergency,2024-09-23,2024-10-06,13,Dr. Brown,Atorvastatin,Normal,United Health,45795.16,438
+P00603,Patient_603,47,Male,A+,Asthma,Elective,2024-12-24,2024-12-29,5,Dr. Davis,Levothyroxine,Normal,Aetna,25956.11,226
+P00604,Patient_604,68,Female,O+,Diabetes,Elective,2024-11-12,2024-11-18,6,Dr. Hernandez,Hydrochlorothiazide,Abnormal,Blue Cross,20280.02,340
+P00605,Patient_605,22,Female,B+,Pneumonia,Emergency,2024-11-19,2024-11-22,3,Dr. Johnson,Atorvastatin,Normal,United Health,16875.14,238
+P00606,Patient_606,46,Female,O+,Heart Disease,Emergency,2025-10-27,2025-11-02,6,Dr. Martinez,Lisinopril,Normal,Aetna,39826.74,538
+P00607,Patient_607,21,Female,O+,Diabetes,Urgent,2025-10-13,2025-10-15,2,Dr. Martinez,Hydrochlorothiazide,Normal,Blue Cross,26829.29,404
+P00608,Patient_608,27,Female,A+,Asthma,Emergency,2025-07-16,2025-07-30,14,Dr. Hernandez,Levothyroxine,Abnormal,Cigna,42658.7,107
+P00609,Patient_609,73,Male,O+,Cancer,Elective,2025-09-20,2025-09-26,6,Dr. Hernandez,Hydrochlorothiazide,Normal,Blue Cross,39531.06,330
+P00610,Patient_610,34,Male,B+,Cancer,Elective,2025-02-24,2025-03-14,18,Dr. Garcia,Albuterol,Normal,Cigna,32978.2,230
+P00611,Patient_611,34,Male,O+,Arthritis,Elective,2024-02-15,2024-02-16,1,Dr. Brown,Hydrochlorothiazide,Normal,Medicare,15266.39,419
+P00612,Patient_612,51,Male,O+,Asthma,Elective,2025-08-22,2025-09-01,10,Dr. Brown,Atorvastatin,Abnormal,Aetna,28374.22,239
+P00613,Patient_613,23,Female,O+,Asthma,Emergency,2025-12-20,2025-12-30,10,Dr. Garcia,Losartan,Normal,Blue Cross,41645.96,435
+P00614,Patient_614,70,Male,O+,Diabetes,Elective,2024-09-25,2024-09-27,2,Dr. Jones,Losartan,Abnormal,Cigna,7979.78,540
+P00615,Patient_615,83,Female,A+,Heart Disease,Elective,2025-08-23,2025-08-30,7,Dr. Garcia,Gabapentin,Critical,Cigna,47686.1,233
+P00616,Patient_616,60,Male,A+,Flu,Elective,2025-01-15,2025-01-20,5,Dr. Miller,Levothyroxine,Abnormal,Medicare,20948.4,533
+P00617,Patient_617,40,Female,O+,Diabetes,Emergency,2024-04-27,2024-05-05,8,Dr. Miller,Albuterol,Abnormal,Medicaid,18588.84,314
+P00618,Patient_618,72,Female,A+,Hypertension,Elective,2025-07-19,2025-07-21,2,Dr. Martinez,Atorvastatin,Normal,Aetna,12597.38,538
+P00619,Patient_619,33,Male,A+,Cancer,Emergency,2024-04-25,2024-05-09,14,Dr. Davis,Atorvastatin,Normal,Medicaid,59856.48,410
+P00620,Patient_620,25,Female,A+,Cancer,Emergency,2025-09-21,2025-09-29,8,Dr. Garcia,Omeprazole,Critical,Blue Cross,57228.87,328
+P00621,Patient_621,21,Male,O+,Arthritis,Emergency,2024-09-16,2024-09-18,2,Dr. Garcia,Metformin,Normal,Aetna,10858.5,214
+P00622,Patient_622,21,Male,A+,Hypertension,Emergency,2024-03-15,2024-03-24,9,Dr. Jones,Levothyroxine,Normal,Medicare,21172.93,236
+P00623,Patient_623,73,Male,O+,Cancer,Elective,2025-04-24,2025-05-06,12,Dr. Smith,Atorvastatin,Abnormal,Blue Cross,57242.45,438
+P00624,Patient_624,42,Male,O-,Diabetes,Emergency,2024-10-31,2024-11-09,9,Dr. Martinez,Metoprolol,Normal,Aetna,23261.49,116
+P00625,Patient_625,84,Male,A+,Hypertension,Urgent,2024-01-07,2024-01-12,5,Dr. Martinez,Atorvastatin,Normal,Aetna,16013.77,121
+P00626,Patient_626,84,Female,A+,Diabetes,Urgent,2024-12-31,2025-01-04,4,Dr. Martinez,Omeprazole,Normal,Medicaid,17541.66,228
+P00627,Patient_627,44,Female,A-,Flu,Elective,2025-09-25,2025-09-28,3,Dr. Davis,Hydrochlorothiazide,Normal,Blue Cross,19722.45,433
+P00628,Patient_628,49,Female,O+,Flu,Emergency,2025-06-06,2025-06-19,13,Dr. Hernandez,Lisinopril,Abnormal,Medicare,48669.67,106
+P00629,Patient_629,67,Male,A+,Cancer,Elective,2024-12-13,2024-12-20,7,Dr. Williams,Lisinopril,Normal,Medicare,35136.43,541
+P00630,Patient_630,78,Female,A-,Cancer,Elective,2025-03-13,2025-03-28,15,Dr. Smith,Metoprolol,Normal,Blue Cross,46320.31,215
+P00631,Patient_631,68,Male,A+,Heart Disease,Elective,2024-08-02,2024-08-13,11,Dr. Davis,Metoprolol,Normal,Blue Cross,38771.28,544
+P00632,Patient_632,36,Male,O+,Flu,Emergency,2025-03-04,2025-03-11,7,Dr. Miller,Gabapentin,Abnormal,Cigna,16589.8,403
+P00633,Patient_633,38,Female,B+,Pneumonia,Elective,2025-05-12,2025-05-22,10,Dr. Jones,Lisinopril,Abnormal,United Health,15835.72,543
+P00634,Patient_634,22,Male,O+,Pneumonia,Elective,2025-06-23,2025-07-02,9,Dr. Hernandez,Hydrochlorothiazide,Normal,Medicaid,25939.35,147
+P00635,Patient_635,59,Female,O+,Arthritis,Elective,2025-01-01,2025-01-03,2,Dr. Miller,Lisinopril,Abnormal,Blue Cross,14001.56,135
+P00636,Patient_636,78,Female,A+,Flu,Emergency,2024-11-08,2024-11-18,10,Dr. Hernandez,Metformin,Normal,Blue Cross,33321.45,314
+P00637,Patient_637,39,Male,O+,Diabetes,Elective,2025-06-21,2025-07-02,11,Dr. Brown,Levothyroxine,Critical,United Health,30153.37,202
+P00638,Patient_638,38,Male,A+,Diabetes,Emergency,2024-02-23,2024-03-01,7,Dr. Martinez,Lisinopril,Normal,United Health,22960.3,429
+P00639,Patient_639,18,Male,O+,Obesity,Emergency,2025-06-24,2025-06-30,6,Dr. Hernandez,Losartan,Abnormal,Aetna,16648.27,204
+P00640,Patient_640,22,Female,O+,Hypertension,Urgent,2025-04-11,2025-04-17,6,Dr. Johnson,Gabapentin,Normal,Medicare,17324.4,526
+P00641,Patient_641,29,Male,O+,Kidney Disease,Emergency,2024-06-12,2024-06-21,9,Dr. Martinez,Omeprazole,Normal,Medicaid,50852.41,412
+P00642,Patient_642,63,Male,A+,Pneumonia,Emergency,2024-11-29,2024-12-04,5,Dr. Martinez,Metoprolol,Normal,Aetna,20796.92,402
+P00643,Patient_643,51,Male,A+,Cancer,Emergency,2025-06-30,2025-07-08,8,Dr. Jones,Metformin,Abnormal,Blue Cross,44329.61,117
+P00644,Patient_644,66,Female,A-,Arthritis,Urgent,2024-12-13,2024-12-26,13,Dr. Smith,Metoprolol,Normal,United Health,20216.05,535
+P00645,Patient_645,62,Male,A-,Kidney Disease,Elective,2024-09-29,2024-10-09,10,Dr. Miller,Gabapentin,Critical,Cigna,43915.64,110
+P00646,Patient_646,44,Male,A+,Asthma,Elective,2025-12-20,2025-12-31,11,Dr. Hernandez,Atorvastatin,Normal,Medicare,34988.33,148
+P00647,Patient_647,43,Female,A-,Arthritis,Elective,2025-02-17,2025-03-03,14,Dr. Hernandez,Metformin,Normal,Aetna,26988.15,322
+P00648,Patient_648,64,Female,A+,Asthma,Emergency,2025-05-14,2025-05-16,2,Dr. Brown,Albuterol,Normal,Cigna,22453.69,141
+P00649,Patient_649,73,Male,B+,Flu,Elective,2024-04-02,2024-04-04,2,Dr. Martinez,Metformin,Abnormal,Medicare,26967.49,243
+P00650,Patient_650,80,Male,O+,Asthma,Elective,2025-11-15,2025-11-22,7,Dr. Garcia,Gabapentin,Normal,Cigna,15165.2,421
+P00651,Patient_651,65,Male,B+,Asthma,Emergency,2024-03-19,2024-03-20,1,Dr. Williams,Omeprazole,Abnormal,United Health,23861.3,115
+P00652,Patient_652,78,Female,A+,Heart Disease,Elective,2025-09-13,2025-09-19,6,Dr. Garcia,Metformin,Critical,Aetna,26440.5,235
+P00653,Patient_653,43,Male,B+,Heart Disease,Urgent,2024-08-04,2024-08-08,4,Dr. Hernandez,Gabapentin,Critical,Aetna,40925.21,548
+P00654,Patient_654,53,Female,A+,Heart Disease,Emergency,2024-12-23,2025-01-01,9,Dr. Garcia,Hydrochlorothiazide,Normal,Medicare,22295.18,421
+P00655,Patient_655,18,Female,O-,Flu,Emergency,2025-09-09,2025-09-14,5,Dr. Jones,Levothyroxine,Abnormal,Cigna,40760.2,521
+P00656,Patient_656,25,Female,A+,Kidney Disease,Emergency,2025-05-21,2025-05-25,4,Dr. Johnson,Lisinopril,Abnormal,United Health,47877.19,221
+P00657,Patient_657,69,Male,O+,Arthritis,Emergency,2025-07-12,2025-07-27,15,Dr. Hernandez,Hydrochlorothiazide,Normal,Blue Cross,53067.93,544
+P00658,Patient_658,64,Female,O-,Arthritis,Urgent,2024-06-29,2024-07-01,2,Dr. Hernandez,Gabapentin,Abnormal,Aetna,20268.66,532
+P00659,Patient_659,73,Female,O+,Cancer,Elective,2025-07-29,2025-08-12,14,Dr. Johnson,Losartan,Normal,Blue Cross,51206.21,505
+P00660,Patient_660,31,Female,O+,Heart Disease,Elective,2024-09-02,2024-09-15,13,Dr. Miller,Atorvastatin,Normal,United Health,49465.76,139
+P00661,Patient_661,45,Male,O+,Flu,Elective,2024-08-31,2024-09-11,11,Dr. Johnson,Lisinopril,Normal,Aetna,35131.49,109
+P00662,Patient_662,19,Female,O-,Cancer,Emergency,2025-05-20,2025-05-24,4,Dr. Garcia,Losartan,Normal,Aetna,55416.97,118
+P00663,Patient_663,43,Male,O+,Hypertension,Elective,2025-02-25,2025-03-09,12,Dr. Jones,Omeprazole,Normal,Cigna,32328.28,421
+P00664,Patient_664,31,Male,O+,Cancer,Elective,2024-11-15,2024-12-02,17,Dr. Brown,Metoprolol,Normal,Blue Cross,59490.95,208
+P00665,Patient_665,76,Male,O+,Kidney Disease,Elective,2024-03-27,2024-04-11,15,Dr. Miller,Albuterol,Abnormal,Cigna,49734.09,144
+P00666,Patient_666,73,Female,AB+,Pneumonia,Urgent,2024-08-04,2024-08-11,7,Dr. Davis,Lisinopril,Normal,Medicaid,22602.05,534
+P00667,Patient_667,24,Male,O+,Asthma,Elective,2025-05-04,2025-05-08,4,Dr. Brown,Hydrochlorothiazide,Normal,Blue Cross,19821.04,510
+P00668,Patient_668,20,Male,B+,Heart Disease,Elective,2025-06-02,2025-06-16,14,Dr. Smith,Atorvastatin,Normal,Blue Cross,25876.41,541
+P00669,Patient_669,40,Male,A+,Pneumonia,Elective,2024-10-04,2024-10-10,6,Dr. Smith,Losartan,Normal,Medicaid,11081.11,524
+P00670,Patient_670,35,Male,A+,Cancer,Emergency,2025-12-22,2026-01-09,18,Dr. Smith,Gabapentin,Abnormal,United Health,60830.77,340
+P00671,Patient_671,55,Female,A+,Flu,Emergency,2024-06-17,2024-06-20,3,Dr. Smith,Lisinopril,Normal,United Health,24791.24,424
+P00672,Patient_672,32,Female,A+,Asthma,Emergency,2024-11-25,2024-12-03,8,Dr. Jones,Metoprolol,Abnormal,Aetna,27642.35,232
+P00673,Patient_673,81,Male,A+,Arthritis,Emergency,2025-10-11,2025-10-13,2,Dr. Brown,Gabapentin,Normal,Medicare,21823.8,233
+P00674,Patient_674,45,Male,O+,Diabetes,Elective,2025-03-16,2025-03-26,10,Dr. Martinez,Losartan,Abnormal,Cigna,39032.88,138
+P00675,Patient_675,56,Female,A+,Asthma,Elective,2025-01-25,2025-02-02,8,Dr. Williams,Atorvastatin,Normal,Medicare,16520.0,344
+P00676,Patient_676,74,Male,O+,Kidney Disease,Urgent,2025-05-10,2025-05-24,14,Dr. Miller,Metformin,Normal,Aetna,40015.27,249
+P00677,Patient_677,34,Male,A+,Kidney Disease,Elective,2025-01-15,2025-01-19,4,Dr. Davis,Metoprolol,Abnormal,Medicare,14646.22,434
+P00678,Patient_678,61,Female,A+,Cancer,Elective,2024-11-01,2024-11-19,18,Dr. Garcia,Gabapentin,Normal,Blue Cross,31332.98,511
+P00679,Patient_679,42,Female,O+,Hypertension,Emergency,2025-11-03,2025-11-13,10,Dr. Hernandez,Metoprolol,Abnormal,Blue Cross,40139.93,131
+P00680,Patient_680,34,Male,O+,Kidney Disease,Emergency,2025-05-27,2025-05-31,4,Dr. Smith,Omeprazole,Abnormal,Medicaid,43010.84,418
+P00681,Patient_681,30,Female,A+,Kidney Disease,Elective,2024-07-06,2024-07-15,9,Dr. Davis,Gabapentin,Normal,Medicaid,48499.63,223
+P00682,Patient_682,42,Male,O+,Flu,Elective,2025-05-30,2025-06-12,13,Dr. Hernandez,Lisinopril,Normal,Aetna,16154.75,322
+P00683,Patient_683,27,Female,O+,Cancer,Elective,2025-10-05,2025-10-12,7,Dr. Williams,Metformin,Normal,Aetna,30881.68,143
+P00684,Patient_684,84,Male,A+,Asthma,Emergency,2025-03-02,2025-03-08,6,Dr. Davis,Metformin,Critical,Aetna,25909.19,218
+P00685,Patient_685,35,Male,A-,Hypertension,Emergency,2025-05-16,2025-05-31,15,Dr. Brown,Albuterol,Abnormal,Blue Cross,32555.91,140
+P00686,Patient_686,51,Male,O-,Pneumonia,Elective,2025-12-30,2026-01-06,7,Dr. Davis,Metoprolol,Normal,Medicare,10595.16,247
+P00687,Patient_687,25,Female,O+,Diabetes,Emergency,2024-09-16,2024-10-02,16,Dr. Smith,Hydrochlorothiazide,Normal,Cigna,38997.48,541
+P00688,Patient_688,57,Female,AB+,Heart Disease,Emergency,2025-05-27,2025-06-10,14,Dr. Williams,Metformin,Normal,Aetna,60778.56,347
+P00689,Patient_689,59,Male,O+,Arthritis,Elective,2024-03-11,2024-03-12,1,Dr. Garcia,Metformin,Abnormal,Aetna,8240.19,539
+P00690,Patient_690,58,Male,A+,Kidney Disease,Emergency,2025-04-22,2025-04-25,3,Dr. Martinez,Omeprazole,Normal,Blue Cross,56331.75,220
+P00691,Patient_691,23,Female,B+,Cancer,Elective,2024-06-26,2024-07-08,12,Dr. Johnson,Levothyroxine,Normal,Cigna,32670.06,413
+P00692,Patient_692,69,Male,A+,Heart Disease,Emergency,2025-04-01,2025-04-07,6,Dr. Smith,Omeprazole,Abnormal,Blue Cross,29303.39,545
+P00693,Patient_693,43,Male,O+,Arthritis,Emergency,2024-07-07,2024-07-12,5,Dr. Hernandez,Omeprazole,Normal,Cigna,18019.76,401
+P00694,Patient_694,81,Female,O+,Arthritis,Elective,2024-10-17,2024-10-31,14,Dr. Williams,Levothyroxine,Normal,Blue Cross,25470.23,204
+P00695,Patient_695,76,Male,O+,Pneumonia,Elective,2025-06-03,2025-06-13,10,Dr. Brown,Metoprolol,Critical,Medicare,24672.25,324
+P00696,Patient_696,73,Female,A+,Pneumonia,Elective,2024-10-18,2024-10-20,2,Dr. Jones,Gabapentin,Abnormal,Aetna,24156.88,436
+P00697,Patient_697,76,Female,A+,Pneumonia,Elective,2025-09-26,2025-10-06,10,Dr. Williams,Atorvastatin,Normal,United Health,36574.86,236
+P00698,Patient_698,50,Male,B+,Obesity,Emergency,2024-10-09,2024-10-14,5,Dr. Hernandez,Hydrochlorothiazide,Normal,United Health,18552.06,445
+P00699,Patient_699,70,Male,O+,Obesity,Elective,2025-06-27,2025-06-30,3,Dr. Johnson,Metformin,Normal,Aetna,15558.55,502
+P00700,Patient_700,39,Male,AB+,Arthritis,Emergency,2025-01-11,2025-01-19,8,Dr. Johnson,Albuterol,Normal,Aetna,13321.01,228
+P00701,Patient_701,38,Female,A+,Pneumonia,Elective,2025-10-19,2025-10-27,8,Dr. Miller,Hydrochlorothiazide,Abnormal,Aetna,25783.96,526
+P00702,Patient_702,21,Female,O+,Flu,Elective,2024-06-04,2024-06-06,2,Dr. Martinez,Gabapentin,Normal,Aetna,15658.45,123
+P00703,Patient_703,79,Female,A+,Kidney Disease,Urgent,2025-05-22,2025-06-04,13,Dr. Hernandez,Levothyroxine,Abnormal,Cigna,31879.09,215
+P00704,Patient_704,79,Male,O-,Heart Disease,Elective,2025-02-16,2025-02-28,12,Dr. Johnson,Hydrochlorothiazide,Critical,Medicare,42268.69,436
+P00705,Patient_705,41,Female,A+,Heart Disease,Emergency,2025-06-11,2025-06-19,8,Dr. Miller,Metformin,Normal,United Health,53955.62,127
+P00706,Patient_706,72,Female,O+,Obesity,Emergency,2024-12-20,2024-12-30,10,Dr. Miller,Hydrochlorothiazide,Normal,Medicaid,32972.81,506
+P00707,Patient_707,26,Female,A+,Arthritis,Elective,2025-07-12,2025-07-18,6,Dr. Miller,Atorvastatin,Normal,United Health,14548.32,535
+P00708,Patient_708,20,Female,O+,Cancer,Elective,2024-07-05,2024-07-17,12,Dr. Williams,Levothyroxine,Critical,United Health,64369.47,439
+P00709,Patient_709,48,Female,B+,Asthma,Elective,2024-01-31,2024-02-01,1,Dr. Miller,Hydrochlorothiazide,Abnormal,Blue Cross,17290.64,138
+P00710,Patient_710,57,Female,A+,Asthma,Emergency,2024-09-16,2024-09-23,7,Dr. Smith,Metformin,Normal,Aetna,37472.89,335
+P00711,Patient_711,53,Female,A-,Obesity,Emergency,2025-02-24,2025-03-11,15,Dr. Hernandez,Metformin,Abnormal,Aetna,23192.3,436
+P00712,Patient_712,41,Male,A+,Cancer,Emergency,2025-06-12,2025-06-15,3,Dr. Smith,Hydrochlorothiazide,Normal,Aetna,45115.78,510
+P00713,Patient_713,23,Male,A+,Obesity,Urgent,2025-07-04,2025-07-08,4,Dr. Jones,Metoprolol,Critical,Blue Cross,24767.61,230
+P00714,Patient_714,83,Female,O-,Asthma,Elective,2024-10-30,2024-11-01,2,Dr. Johnson,Albuterol,Normal,Medicare,9567.29,141
+P00715,Patient_715,21,Male,B+,Cancer,Urgent,2024-02-08,2024-02-22,14,Dr. Martinez,Losartan,Normal,Medicare,44063.87,338
+P00716,Patient_716,23,Female,O+,Pneumonia,Emergency,2025-05-03,2025-05-20,17,Dr. Miller,Omeprazole,Abnormal,Medicaid,35752.06,229
+P00717,Patient_717,68,Female,O+,Arthritis,Elective,2025-10-05,2025-10-10,5,Dr. Brown,Levothyroxine,Normal,Medicare,30253.77,143
+P00718,Patient_718,79,Female,O+,Heart Disease,Elective,2025-06-25,2025-07-12,17,Dr. Brown,Losartan,Normal,Medicare,32842.48,439
+P00719,Patient_719,74,Male,A+,Flu,Emergency,2025-10-31,2025-11-16,16,Dr. Johnson,Gabapentin,Normal,Aetna,38651.34,450
+P00720,Patient_720,83,Male,A+,Hypertension,Elective,2024-10-04,2024-10-13,9,Dr. Jones,Gabapentin,Normal,Cigna,18661.12,104
+P00721,Patient_721,25,Male,O+,Arthritis,Urgent,2024-07-21,2024-08-01,11,Dr. Brown,Metformin,Normal,United Health,38159.74,305
+P00722,Patient_722,43,Female,O-,Pneumonia,Urgent,2024-03-06,2024-03-18,12,Dr. Smith,Gabapentin,Critical,Medicare,22987.17,104
+P00723,Patient_723,68,Female,A+,Asthma,Elective,2024-04-17,2024-04-27,10,Dr. Davis,Metoprolol,Normal,Medicare,33781.26,236
+P00724,Patient_724,62,Female,A+,Pneumonia,Emergency,2024-09-24,2024-09-28,4,Dr. Williams,Albuterol,Normal,Blue Cross,35174.67,245
+P00725,Patient_725,61,Male,B+,Obesity,Emergency,2024-08-09,2024-08-19,10,Dr. Garcia,Gabapentin,Abnormal,Medicaid,28966.03,416
+P00726,Patient_726,22,Female,O-,Cancer,Urgent,2025-06-13,2025-06-23,10,Dr. Brown,Atorvastatin,Normal,Cigna,48605.51,125
+P00727,Patient_727,43,Female,A+,Heart Disease,Emergency,2024-03-30,2024-04-05,6,Dr. Martinez,Albuterol,Normal,Blue Cross,63914.0,414
+P00728,Patient_728,36,Male,B+,Kidney Disease,Elective,2025-11-23,2025-12-02,9,Dr. Miller,Metoprolol,Abnormal,Aetna,22434.03,311
+P00729,Patient_729,37,Female,O+,Obesity,Elective,2024-09-11,2024-09-19,8,Dr. Martinez,Losartan,Abnormal,United Health,20107.07,229
+P00730,Patient_730,29,Male,A+,Arthritis,Elective,2025-03-30,2025-04-10,11,Dr. Hernandez,Albuterol,Abnormal,Medicaid,23985.09,534
+P00731,Patient_731,64,Male,A+,Obesity,Urgent,2024-09-09,2024-09-15,6,Dr. Williams,Albuterol,Abnormal,Blue Cross,14774.72,522
+P00732,Patient_732,18,Female,O+,Arthritis,Emergency,2024-09-13,2024-09-22,9,Dr. Smith,Losartan,Normal,Medicare,16130.27,114
+P00733,Patient_733,31,Male,O+,Kidney Disease,Emergency,2025-01-17,2025-01-22,5,Dr. Jones,Metoprolol,Critical,Medicare,31476.3,124
+P00734,Patient_734,81,Female,A+,Diabetes,Emergency,2025-03-17,2025-03-23,6,Dr. Williams,Gabapentin,Normal,Medicaid,21801.06,539
+P00735,Patient_735,55,Female,B+,Heart Disease,Elective,2025-08-21,2025-08-25,4,Dr. Garcia,Metformin,Abnormal,Medicare,27790.22,126
+P00736,Patient_736,54,Female,B+,Flu,Emergency,2024-03-30,2024-03-31,1,Dr. Davis,Levothyroxine,Normal,Blue Cross,12094.1,243
+P00737,Patient_737,28,Male,B+,Flu,Emergency,2025-01-24,2025-02-05,12,Dr. Brown,Losartan,Critical,Blue Cross,57874.02,336
+P00738,Patient_738,20,Female,O+,Hypertension,Elective,2025-08-04,2025-08-11,7,Dr. Jones,Losartan,Abnormal,Medicare,24951.38,339
+P00739,Patient_739,50,Female,B+,Pneumonia,Urgent,2024-02-13,2024-02-16,3,Dr. Jones,Losartan,Abnormal,Medicare,9074.86,416
+P00740,Patient_740,23,Female,B+,Diabetes,Emergency,2025-12-12,2025-12-19,7,Dr. Brown,Losartan,Normal,Aetna,32877.22,238
+P00741,Patient_741,67,Male,B+,Flu,Elective,2025-10-25,2025-11-03,9,Dr. Brown,Levothyroxine,Normal,United Health,22786.58,132
+P00742,Patient_742,27,Male,O+,Obesity,Urgent,2025-08-20,2025-08-27,7,Dr. Brown,Levothyroxine,Abnormal,Medicaid,28182.95,106
+P00743,Patient_743,22,Female,AB+,Pneumonia,Emergency,2024-01-19,2024-02-04,16,Dr. Brown,Gabapentin,Abnormal,Blue Cross,25672.31,434
+P00744,Patient_744,40,Male,O+,Diabetes,Emergency,2024-04-10,2024-04-15,5,Dr. Brown,Hydrochlorothiazide,Normal,Medicaid,22325.18,408
+P00745,Patient_745,27,Female,A+,Cancer,Emergency,2025-08-29,2025-09-16,18,Dr. Jones,Hydrochlorothiazide,Critical,Aetna,106570.72,130
+P00746,Patient_746,61,Female,O+,Cancer,Elective,2024-12-22,2025-01-09,18,Dr. Johnson,Lisinopril,Abnormal,Blue Cross,51343.43,127
+P00747,Patient_747,19,Female,O+,Pneumonia,Emergency,2025-06-25,2025-07-09,14,Dr. Johnson,Losartan,Normal,Aetna,49738.23,207
+P00748,Patient_748,30,Female,A+,Arthritis,Urgent,2024-02-02,2024-02-08,6,Dr. Martinez,Losartan,Abnormal,Aetna,27709.07,427
+P00749,Patient_749,57,Female,B+,Arthritis,Elective,2024-08-16,2024-08-27,11,Dr. Johnson,Albuterol,Normal,Cigna,19050.07,225
+P00750,Patient_750,19,Female,B+,Obesity,Elective,2025-06-07,2025-06-11,4,Dr. Garcia,Hydrochlorothiazide,Normal,Medicare,20558.69,146
+P00751,Patient_751,82,Female,A+,Diabetes,Emergency,2025-09-21,2025-10-07,16,Dr. Johnson,Gabapentin,Normal,Cigna,31326.64,541
+P00752,Patient_752,80,Female,A-,Diabetes,Elective,2024-06-03,2024-06-16,13,Dr. Jones,Metformin,Normal,Medicaid,18003.87,515
+P00753,Patient_753,34,Male,A+,Pneumonia,Elective,2025-02-26,2025-03-01,3,Dr. Brown,Lisinopril,Abnormal,Medicaid,24242.14,125
+P00754,Patient_754,26,Male,A+,Asthma,Elective,2024-09-02,2024-09-11,9,Dr. Miller,Lisinopril,Normal,Medicare,17140.34,422
+P00755,Patient_755,32,Female,O+,Cancer,Elective,2025-02-08,2025-02-21,13,Dr. Miller,Gabapentin,Abnormal,Cigna,41806.91,518
+P00756,Patient_756,41,Male,A+,Diabetes,Elective,2025-06-24,2025-06-26,2,Dr. Garcia,Metformin,Abnormal,Medicaid,25901.71,412
+P00757,Patient_757,55,Male,O+,Pneumonia,Urgent,2024-06-09,2024-06-10,1,Dr. Hernandez,Albuterol,Abnormal,Cigna,10165.35,523
+P00758,Patient_758,52,Male,AB+,Kidney Disease,Elective,2025-12-02,2025-12-19,17,Dr. Jones,Levothyroxine,Normal,Medicare,72597.07,445
+P00759,Patient_759,66,Female,O+,Hypertension,Elective,2024-04-26,2024-04-28,2,Dr. Smith,Omeprazole,Abnormal,Blue Cross,27637.19,539
+P00760,Patient_760,79,Female,O+,Kidney Disease,Emergency,2024-09-27,2024-10-07,10,Dr. Williams,Hydrochlorothiazide,Normal,Aetna,56796.7,425
+P00761,Patient_761,77,Female,A+,Heart Disease,Emergency,2025-11-22,2025-12-03,11,Dr. Martinez,Losartan,Normal,Aetna,47347.1,210
+P00762,Patient_762,67,Female,O+,Obesity,Emergency,2025-05-01,2025-05-04,3,Dr. Smith,Gabapentin,Normal,Cigna,17052.86,430
+P00763,Patient_763,26,Female,A+,Diabetes,Elective,2024-06-20,2024-06-26,6,Dr. Jones,Hydrochlorothiazide,Normal,Medicaid,18080.6,210
+P00764,Patient_764,51,Male,B+,Heart Disease,Elective,2024-09-30,2024-10-19,19,Dr. Johnson,Losartan,Abnormal,Cigna,45138.82,234
+P00765,Patient_765,52,Female,O+,Flu,Elective,2024-09-15,2024-09-22,7,Dr. Brown,Omeprazole,Normal,Cigna,20038.45,146
+P00766,Patient_766,18,Male,A+,Heart Disease,Urgent,2024-05-14,2024-05-28,14,Dr. Smith,Omeprazole,Abnormal,United Health,57775.37,213
+P00767,Patient_767,57,Female,A-,Pneumonia,Urgent,2025-11-13,2025-11-27,14,Dr. Williams,Levothyroxine,Normal,Aetna,25539.78,329
+P00768,Patient_768,81,Female,O+,Diabetes,Urgent,2025-12-22,2025-12-30,8,Dr. Hernandez,Metoprolol,Normal,Medicare,24778.24,238
+P00769,Patient_769,39,Male,O+,Hypertension,Emergency,2025-02-25,2025-03-04,7,Dr. Miller,Omeprazole,Critical,Cigna,16029.16,441
+P00770,Patient_770,77,Male,O+,Pneumonia,Elective,2025-02-24,2025-02-27,3,Dr. Hernandez,Hydrochlorothiazide,Abnormal,United Health,20618.98,245
+P00771,Patient_771,81,Male,A+,Pneumonia,Emergency,2024-07-04,2024-07-16,12,Dr. Williams,Atorvastatin,Normal,United Health,40684.37,409
+P00772,Patient_772,28,Male,O+,Obesity,Emergency,2024-12-29,2025-01-09,11,Dr. Brown,Atorvastatin,Normal,Aetna,26160.68,413
+P00773,Patient_773,31,Male,A+,Obesity,Emergency,2025-08-29,2025-09-04,6,Dr. Johnson,Losartan,Normal,Aetna,17289.63,337
+P00774,Patient_774,77,Female,O+,Cancer,Emergency,2025-01-12,2025-01-22,10,Dr. Williams,Losartan,Normal,Aetna,51737.82,214
+P00775,Patient_775,47,Female,O-,Cancer,Elective,2025-06-06,2025-06-24,18,Dr. Martinez,Metoprolol,Abnormal,Medicare,61502.79,237
+P00776,Patient_776,52,Female,O+,Arthritis,Elective,2025-08-02,2025-08-04,2,Dr. Williams,Atorvastatin,Abnormal,United Health,20496.3,509
+P00777,Patient_777,54,Female,O+,Asthma,Emergency,2025-12-22,2025-12-26,4,Dr. Jones,Losartan,Normal,Medicaid,20289.61,508
+P00778,Patient_778,22,Female,A+,Diabetes,Elective,2024-07-14,2024-07-16,2,Dr. Johnson,Omeprazole,Critical,Medicare,13492.69,139
+P00779,Patient_779,43,Female,O+,Diabetes,Elective,2024-04-07,2024-04-20,13,Dr. Brown,Losartan,Normal,Blue Cross,41083.61,440
+P00780,Patient_780,79,Male,O+,Heart Disease,Emergency,2025-08-27,2025-08-29,2,Dr. Miller,Lisinopril,Normal,Cigna,49151.25,303
+P00781,Patient_781,21,Female,A+,Diabetes,Elective,2024-01-22,2024-01-26,4,Dr. Miller,Metoprolol,Normal,Aetna,18740.47,547
+P00782,Patient_782,59,Male,O+,Diabetes,Emergency,2025-03-25,2025-04-02,8,Dr. Williams,Gabapentin,Abnormal,United Health,41245.09,240
+P00783,Patient_783,35,Female,A+,Asthma,Elective,2024-06-20,2024-07-03,13,Dr. Jones,Metformin,Normal,Cigna,23272.06,133
+P00784,Patient_784,57,Female,O+,Flu,Elective,2025-01-17,2025-01-23,6,Dr. Smith,Albuterol,Normal,Medicare,21795.83,332
+P00785,Patient_785,56,Female,O+,Cancer,Emergency,2024-05-13,2024-05-21,8,Dr. Hernandez,Metformin,Normal,Blue Cross,33276.85,207
+P00786,Patient_786,31,Male,O+,Cancer,Emergency,2025-03-01,2025-03-02,1,Dr. Hernandez,Metformin,Normal,Medicare,28190.85,219
+P00787,Patient_787,49,Female,A+,Hypertension,Elective,2024-01-25,2024-01-28,3,Dr. Hernandez,Levothyroxine,Abnormal,Medicare,17795.34,434
+P00788,Patient_788,68,Female,O+,Diabetes,Urgent,2025-05-17,2025-05-18,1,Dr. Smith,Gabapentin,Normal,Medicaid,6892.39,414
+P00789,Patient_789,55,Male,AB-,Asthma,Emergency,2024-07-03,2024-07-18,15,Dr. Jones,Losartan,Normal,Cigna,42520.77,550
+P00790,Patient_790,40,Male,O+,Cancer,Elective,2024-03-25,2024-04-05,11,Dr. Hernandez,Levothyroxine,Abnormal,Medicaid,42623.09,547
+P00791,Patient_791,80,Female,B+,Asthma,Elective,2025-07-20,2025-07-25,5,Dr. Martinez,Metformin,Critical,Medicare,27347.37,246
+P00792,Patient_792,32,Male,A+,Kidney Disease,Urgent,2024-05-23,2024-06-10,18,Dr. Smith,Lisinopril,Critical,Blue Cross,74299.1,219
+P00793,Patient_793,42,Female,O+,Flu,Elective,2025-11-09,2025-11-20,11,Dr. Smith,Albuterol,Normal,United Health,36343.56,526
+P00794,Patient_794,34,Male,B+,Diabetes,Elective,2025-02-15,2025-02-28,13,Dr. Brown,Metformin,Normal,United Health,21815.84,517
+P00795,Patient_795,83,Male,O+,Hypertension,Elective,2024-08-11,2024-08-17,6,Dr. Brown,Atorvastatin,Normal,Cigna,21788.16,228
+P00796,Patient_796,70,Female,O+,Heart Disease,Urgent,2024-08-07,2024-08-19,12,Dr. Johnson,Gabapentin,Normal,Aetna,53017.04,319
+P00797,Patient_797,68,Male,O+,Cancer,Elective,2024-06-27,2024-07-10,13,Dr. Martinez,Gabapentin,Critical,Aetna,49232.03,227
+P00798,Patient_798,56,Female,O+,Kidney Disease,Emergency,2025-09-22,2025-10-07,15,Dr. Martinez,Gabapentin,Normal,United Health,43186.37,348
+P00799,Patient_799,68,Male,B-,Asthma,Emergency,2025-03-08,2025-03-13,5,Dr. Johnson,Metoprolol,Normal,Medicare,17404.92,319
+P00800,Patient_800,23,Male,A+,Obesity,Elective,2024-09-21,2024-09-25,4,Dr. Martinez,Metoprolol,Normal,Medicare,28655.32,233
